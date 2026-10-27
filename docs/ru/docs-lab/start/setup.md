@@ -32,7 +32,7 @@ Created: Claude Code
 Config: openspec/config.yaml (schema: spec-driven)
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-034).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-034).
 
 
 Перезапустите IDE, чтобы стали доступны новые команды.
@@ -77,10 +77,10 @@ Init создаёт в проекте:
 
 ```
 openspec/
-├── config.yaml     настройки проекта и контекст для ИИ
-├── specs/          спецификации (пока пусто)
-└── changes/        изменения в работе (пока пусто)
-    └── archive/    сюда перемещаются завершённые изменения
+├── config.yaml     project settings and context for the AI
+├── specs/          your specs (empty for now)
+└── changes/        in-motion changes (empty for now)
+    └── archive/    completed changes move here
 ```
 
 Файл `config.yaml` описан в [конфигурации проекта](../customize/project-config.md).
@@ -92,14 +92,14 @@ openspec/
 
 ```
 .agents/skills/
-├── openspec-explore/              обдумать идею
-├── openspec-propose/              предложить изменение
-├── openspec-apply-change/         выполнить задачи изменения
-├── openspec-update-change/        пересмотреть план изменения
-├── openspec-sync-specs/           перенести обновления спецификаций в specs/
-├── openspec-archive-change/       переместить завершённое изменение в архив
-├── openspec-verify-change/        проверить соответствие реализации плану (не входит в набор по умолчанию)
-└── openspec-bulk-archive-change/  архивировать несколько изменений (не входит в набор по умолчанию)
+├── openspec-explore/              think through an idea first
+├── openspec-propose/              propose a change
+├── openspec-apply-change/         implement a change's tasks
+├── openspec-update-change/        revise a change's plan
+├── openspec-sync-specs/           sync a change's spec updates into specs/
+├── openspec-archive-change/       move a finished change to the archive
+├── openspec-verify-change/        check the implementation matches the plan (not included by default)
+└── openspec-bulk-archive-change/  archive several changes at once (not included by default)
 ```
 
 Здесь показан набор по умолчанию и два дополнительных процесса. Все двенадцать перечислены в разделе [Профили](../customize/profiles.md).
@@ -140,7 +140,7 @@ Config changes:
 ? Apply changes to this project now? (Y/n) y
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-002).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-002).
 
 
 Ответ «да» сразу применяет настройку к текущему проекту. Другие проекты получат её при следующем `openspec update`. Настройка глобальная для компьютера.

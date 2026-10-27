@@ -10,7 +10,7 @@
 <!-- russian-docs:start -->
 <p align="center">
   <a href="docs/ru/README.md">
-    <img src="docs/ru/assets/russian-docs-button.svg" alt="Документация на русском: открыть русский раздел OpenSpec" width="960" />
+    <img src="assets/russian-docs-button.svg" alt="Документация на русском: открыть русский раздел OpenSpec" width="960" />
   </a>
   <br />
   <a href="docs/ru/README.md"><strong>Открыть документацию на русском</strong></a>

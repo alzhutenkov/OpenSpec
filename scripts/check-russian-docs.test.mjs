@@ -5,7 +5,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { execFileSync, spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
-import { checkRussianDocs, blockingFindings, canonical, headingIds, localLinks, translationPath } from './check-russian-docs.mjs';
+import { checkRussianDocs, blockingFindings, canonical, headingIds, localLinks, translationPath, manifestPath } from './check-russian-docs.mjs';
 
 function fixture(t) {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'russian docs '));
@@ -20,7 +20,7 @@ function fixture(t) {
   const entry = (source) => ({ source, translation: translationPath(source), status: 'reviewed', sourceCommit: git('rev-parse', 'HEAD'), sourceBlob: git('rev-parse', `HEAD:${source}`) });
   const manifest = { version: 1, entries: [entry('docs/guide.md')] };
   write('docs/ru/docs/guide.md', '<a id="guide"></a>\n# Руководство\n\nПривет.\n');
-  const save = () => write('docs/ru/translation-manifest.json', JSON.stringify(manifest));
+  const save = () => write(manifestPath, JSON.stringify(manifest));
   save();
   return { root, write, git, manifest, entry, save, check: () => checkRussianDocs(root) };
 }
@@ -29,6 +29,12 @@ const types = report => report.findings.map(f => f.type);
 test('matching versions work inside a path with spaces', t => {
   const f = fixture(t);
   assert.deepEqual(f.check(), { entries: 1, findings: [] });
+});
+test('root and nested translations mirror source paths without a project prefix', () => {
+  assert.equal(translationPath('README.md'), 'docs/ru/README.md');
+  assert.equal(translationPath('CONTRIBUTING.md'), 'docs/ru/CONTRIBUTING.md');
+  assert.equal(translationPath('docs/README.md'), 'docs/ru/docs/README.md');
+  assert.equal(translationPath('.github/workflows/README.md'), 'docs/ru/.github/workflows/README.md');
 });
 test('changes, additions, renames and deletions remain visible without deleting translations', t => {
   const f = fixture(t);
@@ -129,7 +135,7 @@ test('CRLF and the marked README button do not make English content stale', t =>
   f.write('docs/guide.md', '# Guide\r\n\r\nHello.\r\n');
   assert.deepEqual(f.check().findings, []);
   f.write('README.md', '# Project\n\nEnglish.\n'); f.git('add', 'README.md'); f.git('commit', '-m', 'Add README');
-  f.manifest.entries.push(f.entry('README.md')); f.write('docs/ru/project/README.md', '# Проект\n'); f.save();
+  f.manifest.entries.push(f.entry('README.md')); f.write('docs/ru/README.md', '# Проект\n'); f.save();
   const withButton = '# Project\n\n<!-- russian-docs:start -->\n[Русский](docs/ru/README.md)\n<!-- russian-docs:end -->\n\nEnglish.\n';
   f.write('README.md', withButton.replace(/\n/g, '\r\n'));
   assert.deepEqual(f.check().findings, []);

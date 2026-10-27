@@ -41,7 +41,7 @@ teammate reviews, merges
 /opsx:archive                      fold the delta into specs/, move the change to archive/
 ```
 
-[Русское пояснение подписей и сообщений](../EXAMPLE_NOTES.md#example-061).
+[Русское пояснение подписей и сообщений](../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-061).
 
 
 План и код живут бок о бок в одной ветке, поэтому ваши товарищи по команде просматривают их вместе, и шесть месяцев спустя заархивированная спецификация все еще объясняет, почему код выглядит именно так.

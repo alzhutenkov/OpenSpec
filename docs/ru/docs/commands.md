@@ -190,7 +190,7 @@ AI:  Created openspec/changes/add-dark-mode/
      Use /opsx:continue to create it, or /opsx:ff to create all artifacts.
 ```
 
-[Русское пояснение подписей и сообщений](../EXAMPLE_NOTES.md#example-038).
+[Русское пояснение подписей и сообщений](../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-038).
 
 
 **Советы:**
@@ -243,7 +243,7 @@ AI:  Change: add-dark-mode
      Run /opsx:continue to create the next artifact.
 ```
 
-[Русское пояснение подписей и сообщений](../EXAMPLE_NOTES.md#example-039).
+[Русское пояснение подписей и сообщений](../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-039).
 
 
 **Советы:**
@@ -289,7 +289,7 @@ AI:  Fast-forwarding add-dark-mode...
      Ready for implementation. Run /opsx:apply to begin.
 ```
 
-[Русское пояснение подписей и сообщений](../EXAMPLE_NOTES.md#example-040).
+[Русское пояснение подписей и сообщений](../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-040).
 
 
 **Советы:**
@@ -343,7 +343,7 @@ AI:  Implementing add-dark-mode...
      ...
 ```
 
-[Русское пояснение подписей и сообщений](../EXAMPLE_NOTES.md#example-041).
+[Русское пояснение подписей и сообщений](../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-041).
 
 
 **Советы:**
@@ -468,7 +468,7 @@ AI:  Verifying add-dark-mode...
      2. Update design.md to reflect Tailwind usage, or refactor to use CSS variables
 ```
 
-[Русское пояснение подписей и сообщений](../EXAMPLE_NOTES.md#example-042).
+[Русское пояснение подписей и сообщений](../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-042).
 
 
 **Советы:**
@@ -565,7 +565,7 @@ AI: Архивирование дополнительного темного р�
 
      Статус артефакта:
      ✓ proposal.md существует.
-     ✓ спецификации/ существует
+     ✓ specs/ существует
      ✓ design.md существует.
      ✓ tasks.md существует (выполнено 8/8 задач)
 
@@ -636,7 +636,7 @@ AI:  ✓ Archived add-dark-mode
      Specs merged: add-dark-mode → update-footer
 ```
 
-[Русское пояснение подписей и сообщений](../EXAMPLE_NOTES.md#example-043).
+[Русское пояснение подписей и сообщений](../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-043).
 
 
 **Советы:**
@@ -699,7 +699,7 @@ AI:  Welcome to OpenSpec!
      Which interests you? (or suggest something else)
 ```
 
-[Русское пояснение подписей и сообщений](../EXAMPLE_NOTES.md#example-044).
+[Русское пояснение подписей и сообщений](../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-044).
 
 
 **Советы:**

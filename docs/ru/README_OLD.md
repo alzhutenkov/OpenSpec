@@ -1,15 +1,15 @@
 <!-- translation-source: README_OLD.md -->
-> Оригинал: [README_OLD.md (английский)](../../../README_OLD.md). Проверенная версия: [6d04a1b58ded](https://github.com/alzhutenkov/OpenSpec/blob/6d04a1b58dedc95729d34e4f223d9d483aae210a/README_OLD.md).
+> Оригинал: [README_OLD.md (английский)](../../README_OLD.md). Проверенная версия: [6d04a1b58ded](https://github.com/alzhutenkov/OpenSpec/blob/6d04a1b58dedc95729d34e4f223d9d483aae210a/README_OLD.md).
 
 > [!WARNING]
-> Прежняя документация: материал может быть устаревшим. [Актуальный русский раздел](../README.md).
+> Прежняя документация: материал может быть устаревшим. [Актуальный русский раздел](README.md).
 
 <p align="center">
   <a href="https://github.com/Fission-AI/OpenSpec">
     <picture>
-      <source srcset="../../../assets/openspec_pixel_dark.svg" media="(prefers-color-scheme: dark)">
-      <source srcset="../../../assets/openspec_pixel_light.svg" media="(prefers-color-scheme: light)">
-      <img src="../../../assets/openspec_pixel_light.svg" alt="Логотип OpenSpec" height="64">
+      <source srcset="../../assets/openspec_pixel_dark.svg" media="(prefers-color-scheme: dark)">
+      <source srcset="../../assets/openspec_pixel_light.svg" media="(prefers-color-scheme: light)">
+      <img src="../../assets/openspec_pixel_light.svg" alt="Логотип OpenSpec" height="64">
     </picture>
   </a>
 
@@ -19,13 +19,13 @@
   <a href="https://github.com/Fission-AI/OpenSpec/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/Fission-AI/OpenSpec/actions/workflows/ci.yml/badge.svg" /></a>
   <a href="https://www.npmjs.com/package/@fission-ai/openspec"><img alt="npm version" src="https://img.shields.io/npm/v/@fission-ai/openspec?style=flat-square" /></a>
   <a href="https://nodejs.org/"><img alt="node version" src="https://img.shields.io/node/v/@fission-ai/openspec?style=flat-square" /></a>
-  <a href="../../../LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" /></a>
+  <a href="../../LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" /></a>
   <a href="https://conventionalcommits.org"><img alt="Conventional Commits" src="https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square" /></a>
   <a href="https://discord.gg/YctCnvvshC"><img alt="Discord" src="https://img.shields.io/badge/Discord-Join%20the%20community-5865F2?logo=discord&logoColor=white&style=flat-square" /></a>
 </p>
 
 <p align="center">
-  <img src="../../../assets/openspec_dashboard.png" alt="Предварительный вид панели OpenSpec" width="90%">
+  <img src="../../assets/openspec_dashboard.png" alt="Предварительный вид панели OpenSpec" width="90%">
 </p>
 
 Снимок панели OpenSpec показывает состояние проекта. В разделе Summary («Сводка») указаны 10 спецификаций и 64 требования, 3 активных и 4 завершённых изменения. Для задач показано 30 из 41, то есть 73%. Active Changes («Активные изменения») перечисляет изменения в работе, Completed Changes («Завершённые изменения») показывает законченные, Specifications («Спецификации») перечисляет спецификации и количество требований. Идентификаторы изменений и спецификаций сохранены на английском для сопоставления с CLI.
@@ -36,7 +36,7 @@
 </p>
 
 <p align="center">
-  <sub>🧪 <strong>Новое: </strong> <a href="../docs/opsx.md">OPSX Рабочий процесс</a> — управляемый схемой, взломанный, гибкий. Выполняйте итерации рабочих процессов без изменения кода. </sub>
+  <sub>🧪 <strong>Новое: </strong> <a href="docs/opsx.md">OPSX Рабочий процесс</a> — управляемый схемой, взломанный, гибкий. Выполняйте итерации рабочих процессов без изменения кода. </sub>
 </p>
 
 # OpenSpec
@@ -97,7 +97,7 @@ OpenSpec объединяет людей и ИИ-помощников по пр�
 4. Archive the change to merge the approved updates back into the source-of-truth specs.
 ```
 
-[Русское пояснение подписей и сообщений](../EXAMPLE_NOTES.md#example-001).
+[Русское пояснение подписей и сообщений](../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-001).
 
 
 <a id="getting-started"></a>
@@ -321,7 +321,7 @@ openspec list               # просмотр папок активных из�
 openspec view               # Интерактивная панель характеристик и изменений.
 openspec show <change>      # отображение сведений об изменении (предложение, задачи, обновления спецификаций).
 openspec validate <change>  # проверьте форматирование и структуру спецификации.
-openspec archive <change> [--yes|-y]   # переместить завершенное изменение в архив/ (неинтерактивно с --yes)
+openspec archive <change> [--yes|-y]   # переместить завершенное изменение в archive/ (неинтерактивно с --yes)
 ```
 
 <a id="example-how-ai-creates-openspec-files"></a>
@@ -332,8 +332,8 @@ openspec archive <change> [--yes|-y]   # переместить завершен
 ```
 openspec/
 ├── specs/
-│   └── авторизация/
-│       └── spec.md # Текущая спецификация аутентификации (если существует)
+│   └── auth/
+│       └── spec.md           # Текущая спецификация аутентификации (если существует)
 └── changes/
     └── add-2fa/              # ИИ создаёт всю эту структуру
         ├── proposal.md       # Почему и что меняется
@@ -484,7 +484,7 @@ You can always go back:
 
 **Настройка:** `openspec experimental`
 
-[Полная документация →](../docs/opsx.md)
+[Полная документация →](docs/opsx.md)
 
 </details>
 

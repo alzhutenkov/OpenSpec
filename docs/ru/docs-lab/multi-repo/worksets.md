@@ -36,7 +36,7 @@
    Open it any time with: openspec workset open platform
    ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-009).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-009).
 
 
 2. **Открывайте набор** перед работой:

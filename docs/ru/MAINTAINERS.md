@@ -1,5 +1,5 @@
 <!-- translation-source: MAINTAINERS.md -->
-> Оригинал: [MAINTAINERS.md (английский)](../../../MAINTAINERS.md). Проверенная версия: [6d04a1b58ded](https://github.com/alzhutenkov/OpenSpec/blob/6d04a1b58dedc95729d34e4f223d9d483aae210a/MAINTAINERS.md).
+> Оригинал: [MAINTAINERS.md (английский)](../../MAINTAINERS.md). Проверенная версия: [6d04a1b58ded](https://github.com/alzhutenkov/OpenSpec/blob/6d04a1b58dedc95729d34e4f223d9d483aae210a/MAINTAINERS.md).
 
 <a id="maintainers"></a>
 # Сопровождающие

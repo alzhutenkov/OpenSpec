@@ -134,7 +134,7 @@ Getting started:
 Restart your IDE for the new commands to take effect.
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-010).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-010).
 
 
 `--tools none` создает только `openspec/config.yaml`. В уже инициализированном проекте init переписывает установленные файлы на место, и в сводке читается `Refreshed: Claude Code` с `Config: openspec/config.yaml (exists)`.
@@ -368,7 +368,7 @@ Use "openspec config list" to see available keys.
 Pass --allow-unknown to bypass this check.
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-011).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-011).
 
 
 ```
@@ -382,7 +382,7 @@ Error: /home/you/.config/openspec/config.json could not be parsed, so it was lef
 Fix it with "openspec config edit", or reset it with "openspec config reset --all".
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-012).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-012).
 
 
 Пока проблема не будет исправлена, телеметрия и проверка обновлений остаются отключенными.
@@ -447,7 +447,7 @@ Set the EDITOR or VISUAL environment variable to your preferred editor
 Example: export EDITOR=vim
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-013).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-013).
 
 
 ### openspec config profile
@@ -738,7 +738,7 @@ Specifications
 Use openspec list --changes or openspec list --specs for detailed views
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-014).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-014).
 
 
 строка сводки `Task Progress` появляется, когда для любого изменения выполняются задачи.
@@ -746,7 +746,7 @@ Use openspec list --changes or openspec list --specs for detailed views
 каждое активное изменение также показывает свою схему и состояния артефакта под индикатором выполнения задачи:
 
 ```text
-    └─ [спецификационное] предложение✓ спецификации→ дизайн→ задачи✓
+    └─ [spec-driven] proposal✓ specs→ design→ tasks✓
 ```
 
 |Маркер|состояние артефакта|
@@ -843,7 +843,7 @@ Next steps:
   - Debug parsed deltas: openspec show add-rate-limit --json --deltas-only
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-015).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-015).
 
 
 `--json` печатает один отчет за прогон:
@@ -1069,7 +1069,7 @@ Specs updated successfully.
 Change 'add-rate-limit' archived as '2026-08-11-add-rate-limit'.
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-016).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-016).
 
 
 Папка изменений целиком перемещается в `openspec/changes/archive/2026-08-11-add-rate-limit/`, к ее имени добавляется сегодняшняя дата. Каждая дельта сливается со своей основной спецификацией: требование ADDED, указанное выше, было добавлено к `openspec/specs/api/spec.md`. Без `-y` архив показывает превью и спрашивает перед обновлением. Отказ по-прежнему сохраняет изменения и оставляет спецификации в покое.
@@ -1107,7 +1107,7 @@ Validation failed. Please fix the errors before archiving.
 To skip validation (not recommended), use --no-validate flag.
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-017).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-017).
 
 
 Невыполненные задачи предупреждают, но не блокируют. В интерактивном режиме архив спрашивает, продолжать ли, а `-y` продолжает самостоятельно:
@@ -1175,7 +1175,7 @@ Note: no OpenSpec root was found here, so one was created at openspec/.
 Run `openspec init` to finish setting this project up, or delete that directory if you meant a different project.
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-018).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-018).
 
 
 уведомление отправляется на стандартный вывод вместе с остальными выводами человека и никогда не появляется с `--json`.
@@ -1259,7 +1259,7 @@ Progress: 2/4 artifacts complete
 Next: openspec instructions design --change "add-rate-limit" --json
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-019).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-019).
 
 
 строка `Next:` называет одну команду, которая перемещает изменение вперед, поэтому `openspec status` достаточно, чтобы восстановить изменение в новом сеансе. Он называет следующий готовый артефакт, пока планирование еще не завершено, и `openspec instructions apply`, когда каждый артефакт планирования существует:
@@ -1388,7 +1388,7 @@ Create the proposal document that establishes WHY this change is needed.
 ...
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-020).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-020).
 
 
 `apply` печатает контекстные файлы, ход выполнения задачи и рабочие инструкции:
@@ -1417,7 +1417,7 @@ Pause if you hit blockers or need clarification.
 No project context or operation guidance configured.
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-021).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-021).
 
 
 Если необходимые артефакты отсутствуют, `apply` сообщает `### ⚠️ Blocked` и вместо этого называет их. `archive` печатает имя изменения, а также любой контекст проекта и руководство по эксплуатации из конфигурации. Если ничего не настроено, написано так и не более того.
@@ -1476,7 +1476,7 @@ tasks:
   /usr/local/lib/node_modules/@fission-ai/openspec/schemas/spec-driven/templates/tasks.md
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-022).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-022).
 
 
 имена `Source`, в которых разрешена схема: `project` (`openspec/schemas/` в вашем проекте), `user` (глобальное переопределение) или `package` (встроен в CLI). Проект выигрывает у пользователя, пользователь над пакетом.
@@ -1685,7 +1685,7 @@ Source: /usr/local/lib/node_modules/@fission-ai/openspec/schemas/spec-driven (pa
 Destination: /Users/you/projects/my-app/openspec/schemas/my-flow
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-023).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-023).
 
 
 форк попадает в `openspec/schemas/`, а поле `name:` в его `schema.yaml` перезаписывается на новое имя:
@@ -1814,7 +1814,7 @@ Next: run normal OpenSpec commands against this store, for example:
 Share this store by committing and pushing it like any Git repo.
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-024).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-024).
 
 
 `--json` сообщает, что было создано и где зарегистрировано:
@@ -1912,7 +1912,7 @@ Error: Pass --yes to delete store files non-interactively.
 Fix: openspec store remove design-system --yes
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-025).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-025).
 
 
 удалить выходы 1 и ничего не удалить, если в папке отсутствуют соответствующие метаданные хранилища или если она содержит другое зарегистрированное хранилище (например, хранилище, представленное как подмодуль Git). В этом случае ошибка будет `store_remove_contains_registered_store`: сначала запустите `openspec store unregister <nested-id>` или `openspec store unregister <id>`, чтобы забыть хранилище без удаления файлов.
@@ -1970,7 +1970,7 @@ team-context
   Issues: none
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-026).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-026).
 
 
 **Коды выхода**
@@ -2009,7 +2009,7 @@ References
   - team-context: ok (/Users/you/stores/team-context)
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-027).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-027).
 
 
 В `--store` корнем является хранилище, и в отчет добавляется строка хранилища:
@@ -2027,7 +2027,7 @@ References
   (none declared)
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-028).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-028).
 
 
 ```json
@@ -2089,7 +2089,7 @@ Referenced stores
     Fetch: openspec show <spec-id> --type spec --store team-context
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-029).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-029).
 
 
 С `--store` в хранилище находится весь набор:
@@ -2104,7 +2104,7 @@ OpenSpec root
 No references declared; the working set is this root alone.
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-030).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-030).
 
 
 ```json
@@ -2207,7 +2207,7 @@ Saved workset 'checkout' (2 members) to your machine.
 Open it any time with: openspec workset open checkout
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-031).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-031).
 
 
 ### openspec workset list
@@ -2236,7 +2236,7 @@ checkout-tool  (opens in VS Code)
   checkout-api  /Users/you/projects/checkout-api
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-032).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-032).
 
 
 С `--json`:
@@ -2567,7 +2567,7 @@ Warning: "openspec change list" is deprecated. Use "openspec list".
 add-rate-limit
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-033).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-033).
 
 
 |Устарело.|использовать вместо этого|

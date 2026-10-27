@@ -12,7 +12,7 @@
 
 ```
          team-plans  (хранилище: OpenSpec в отдельном репозитории)
-         ├── .openspec-store/store.yaml   имя хранилища
+         ├── .openspec-store/store.yaml   the store's name
          └── openspec/
              ├── specs/
              └── changes/
@@ -36,7 +36,7 @@
 
   ```
         shop-plans  (хранилище)
-        └── openspec/changes/add-discounts/    единый план возможности
+        └── openspec/changes/add-discounts/    one plan for the feature
                   ▲
         ┌─────────┴─────────┐
         │                   │
@@ -48,7 +48,7 @@
 
   ```
           product-specs  (хранилище)
-          └── openspec/specs/checkout/spec.md    ожидаемое поведение
+          └── openspec/specs/checkout/spec.md    the expected behavior
                     ▲
       ┌─────────────┼─────────────┐
       │             │             │
@@ -89,7 +89,7 @@
    Share this store by committing and pushing it like any Git repo.
    ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-004).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-004).
 
 
 2. **Отправьте хранилище на свой Git-хостинг.** Сначала создайте там пустой репозиторий `team-plans`. Setup не добавляет remote: свяжите хранилище с этим репозиторием и выполните push:
@@ -134,7 +134,7 @@
    No active changes. Create one with: openspec new change <name> --store team-plans
    ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-005).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-005).
 
 
 <a id="types-of-setups"></a>
@@ -168,13 +168,13 @@ web-app  (репозиторий кода)
 ```
 team-plans  (хранилище)
 └── openspec/
-    ├── specs/       здесь спецификации репозитория
-    └── changes/     и его изменения
+    ├── specs/       the repo's specs live here
+    └── changes/     its changes too
           ▲
           │ store: team-plans   (строка связи)
 web-app  (репозиторий кода)
 └── openspec/
-    └── config.yaml    других файлов нет
+    └── config.yaml    nothing else
 ```
 
 <a id="openspec-in-your-repo-and-in-a-store-store-optional"></a>
@@ -186,11 +186,11 @@ web-app  (репозиторий кода)
 
 ```
 team-plans  (хранилище)
-└── openspec/          общие спецификации и изменения
+└── openspec/          the shared specs and changes
           ▲
           │ только с флагом --store team-plans
 web-app  (репозиторий кода)
-└── openspec/          собственная папка репозитория
+└── openspec/          this repo's own
     ├── config.yaml
     ├── specs/
     └── changes/
@@ -237,7 +237,7 @@ Using OpenSpec root: team-plans (/Users/you/openspec/team-plans)
 No active changes. Create one with: openspec new change <name> --store team-plans
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-006).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-006).
 
 
 - **Без строки:** обычная команда в проекте store-only остановится с ошибкой и списком зарегистрированных хранилищ.
@@ -307,7 +307,7 @@ Schema: spec-driven
 Next: openspec status --change add-login --store team-plans
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-007).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-007).
 
 
 - **Расположение:** в репозитории хранилища, отдельно от кода.
@@ -333,7 +333,7 @@ References
   (none declared)
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-008).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-008).
 
 
 `openspec context` перечисляет корень и хранилища текущего каталога, если нужна та же картина без проверок.

@@ -179,12 +179,12 @@ openspec instructions archive --change my-feature --json
 ```text
 ваш-проект/
 ├── openspec/
-│   ├── config.yaml # Конфигурация проекта
-│   ├── схемы/ # Здесь находятся пользовательские схемы
-│   │ └── мой рабочий процесс/
-│   │ ├── schema.yaml
-│   │ └── шаблоны/
-│   └── изменения/ # Ваши изменения
+│   ├── config.yaml        # Конфигурация проекта
+│   ├── schemas/           # Здесь находятся пользовательские схемы
+│   │   └── my-workflow/
+│   │       ├── schema.yaml
+│   │       └── templates/
+│   └── changes/           # Ваши изменения
 └── src/
 ```
 

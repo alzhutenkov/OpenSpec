@@ -858,7 +858,7 @@ Progress: 2/4 artifacts complete
 [-] tasks (blocked by: design)
 ```
 
-[Русское пояснение подписей и сообщений](../EXAMPLE_NOTES.md#example-035).
+[Русское пояснение подписей и сообщений](../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-035).
 
 
 изменение, объявляющее `skip_specs: true`, показывает его стадию спецификации как `[~] specs (skipped: change declares skip_specs)` и исключает ее из подсчета прогресса.
@@ -1003,7 +1003,7 @@ Templates:
   tasks     → ~/.openspec/schemas/spec-driven/templates/tasks.md
 ```
 
-[Русское пояснение подписей и сообщений](../EXAMPLE_NOTES.md#example-036).
+[Русское пояснение подписей и сообщений](../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-036).
 
 
 ---
@@ -1043,7 +1043,7 @@ Available schemas:
     Flow: research → proposal → tasks
 ```
 
-[Русское пояснение подписей и сообщений](../EXAMPLE_NOTES.md#example-037).
+[Русское пояснение подписей и сообщений](../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-037).
 
 
 ---

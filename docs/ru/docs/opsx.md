@@ -327,7 +327,7 @@ rules:
        UPDATE            NEW  UPDATE       NEW  UPDATE          NEW
 ```
 
-[Русское пояснение подписей и сообщений](../EXAMPLE_NOTES.md#example-051).
+[Русское пояснение подписей и сообщений](../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-051).
 
 
 |Тест|Обновление|Новое изменение|
@@ -437,7 +437,7 @@ rules:
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-[Русское пояснение подписей и сообщений](../EXAMPLE_NOTES.md#example-052).
+[Русское пояснение подписей и сообщений](../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-052).
 
 
 **OPSX** использует внешние схемы и механизм графа зависимостей:
@@ -541,7 +541,7 @@ rules:
   Agent creates ALL artifacts in one go
 ```
 
-[Русское пояснение подписей и сообщений](../EXAMPLE_NOTES.md#example-053).
+[Русское пояснение подписей и сообщений](../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-053).
 
 
 **OPSX** — запросы агента для расширенного контекста:
@@ -671,7 +671,7 @@ artifacts:
     requires: [proposal]
 ```
 
-[Русское пояснение подписей и сообщений](../EXAMPLE_NOTES.md#example-054).
+[Русское пояснение подписей и сообщений](../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-054).
 
 
 **График зависимостей:**
