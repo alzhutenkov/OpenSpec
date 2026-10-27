@@ -7,6 +7,16 @@
   </a>
 </p>
 
+<!-- russian-docs:start -->
+<p align="center">
+  <a href="docs/ru/README.md">
+    <img src="docs/ru/assets/russian-docs-button.svg" alt="Документация на русском: открыть русский раздел OpenSpec" width="960" />
+  </a>
+  <br />
+  <a href="docs/ru/README.md"><strong>Открыть документацию на русском</strong></a>
+</p>
+<!-- russian-docs:end -->
+
 <p align="center">
   <a href="https://github.com/Fission-AI/OpenSpec/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/Fission-AI/OpenSpec/actions/workflows/ci.yml/badge.svg" /></a>
   <a href="https://www.npmjs.com/package/@fission-ai/openspec"><img alt="npm version" src="https://img.shields.io/npm/v/@fission-ai/openspec?style=flat-square" /></a>
