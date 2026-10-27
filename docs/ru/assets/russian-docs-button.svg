@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="180" viewBox="0 0 960 180" role="img" aria-labelledby="title description">
+  <title id="title">Документация на русском</title>
+  <desc id="description">Перейти в русский раздел документации OpenSpec</desc>
+  <rect x="2" y="2" width="956" height="176" rx="28" fill="#124332" stroke="#72e6ad" stroke-width="4"/>
+  <rect x="32" y="45" width="84" height="90" rx="16" fill="#72e6ad"/>
+  <text x="74" y="103" text-anchor="middle" fill="#123d2e" font-family="Arial, sans-serif" font-size="38" font-weight="700">RU</text>
+  <text x="146" y="86" fill="#fff" font-family="Arial, sans-serif" font-size="43" font-weight="700">Документация на русском</text>
+  <text x="148" y="126" fill="#b5e3cd" font-family="Arial, sans-serif" font-size="24">OpenSpec · Открыть русский раздел</text>
+  <path d="m873 70 22 20-22 20M850 90h43" fill="none" stroke="#72e6ad" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
