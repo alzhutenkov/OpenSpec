@@ -1,5 +1,5 @@
 <!-- translation-source: SECURITY.md -->
-> Оригинал: [SECURITY.md (английский)](../../../SECURITY.md). Проверенная версия: [6d04a1b58ded](https://github.com/alzhutenkov/OpenSpec/blob/6d04a1b58dedc95729d34e4f223d9d483aae210a/SECURITY.md).
+> Оригинал: [SECURITY.md (английский)](../../SECURITY.md). Проверенная версия: [6d04a1b58ded](https://github.com/alzhutenkov/OpenSpec/blob/6d04a1b58dedc95729d34e4f223d9d483aae210a/SECURITY.md).
 
 <a id="security-policy"></a>
 # Политика безопасности

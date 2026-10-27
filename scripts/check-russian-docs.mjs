@@ -7,6 +7,8 @@ import { execFileSync } from 'node:child_process';
 
 export const rootSources = ['README.md', 'README_OLD.md', 'CONTRIBUTING.md', 'SECURITY.md', 'MAINTAINERS.md', 'install.md', 'CHANGELOG.md', 'openspec-parallel-merge-plan.md'];
 export const extraSources = ['scripts/README.md', 'skills/README.md', 'website/README.md', '.changeset/README.md', '.devcontainer/README.md', '.github/workflows/README.md'];
+export const manifestPath = 'openspec/specs/russian-documentation/support/translation-manifest.json';
+const supportDocuments = ['TRANSLATION_RULES.md', 'UPSTREAM_SYNC.md', 'GLOSSARY.md', 'VALIDATION.md', 'EXAMPLE_NOTES.md'];
 export const excludedAreas = {
   'AGENTS.md': 'Машинные инструкции агента, не руководство пользователя.',
   '.agents/': 'Установленные машинные навыки и их служебные файлы.',
@@ -28,7 +30,7 @@ export function discoverSources(root) {
   )).sort();
 }
 export function translationPath(source) {
-  return path.posix.join('docs/ru', rootSources.includes(source) ? 'project' : '', source);
+  return path.posix.join('docs/ru', source);
 }
 export function canonical(source, text) {
   const normalized = text.replace(/\r\n/g, '\n');
@@ -99,13 +101,15 @@ export function checkRussianDocs(root) {
   const findings = [];
   const add = (type, source, detail, severity) => findings.push({ type, source, detail, ...(severity ? { severity } : {}) });
   let manifest;
-  try { manifest = JSON.parse(fs.readFileSync(path.join(root, 'docs', 'ru', 'translation-manifest.json'), 'utf8')); }
+  try { manifest = JSON.parse(fs.readFileSync(path.join(root, ...manifestPath.split('/')), 'utf8')); }
   catch (error) { return { entries: 0, findings: [{ type: 'invalid-manifest', source: 'translation-manifest.json', detail: error.message }] }; }
   if (!manifest || manifest.version !== 1 || !Array.isArray(manifest.entries)) return { entries: 0, findings: [{ type: 'invalid-manifest', source: 'translation-manifest.json', detail: 'Ожидается version: 1 и массив entries.' }] };
   const sources = new Set(discoverSources(root)), registered = new Map(), targets = new Set();
   const docs = new Set();
-  for (const name of ['README.md', 'TRANSLATION_RULES.md', 'UPSTREAM_SYNC.md', 'GLOSSARY.md', 'VALIDATION.md', 'EXAMPLE_NOTES.md']) {
-    const doc = path.posix.join('docs/ru', name);
+  for (const doc of [
+    'openspec/specs/russian-documentation/spec.md',
+    ...supportDocuments.map(name => path.posix.join('openspec/specs/russian-documentation/support', name)),
+  ]) {
     if (safeFile(root, doc)) docs.add(doc);
   }
   for (const entry of manifest.entries) {

@@ -1,193 +1,274 @@
-# OpenSpec: документация на русском
+<!-- translation-source: README.md; sourceCommit: 6d04a1b58dedc95729d34e4f223d9d483aae210a -->
+<p align="center">
+  <a href="https://github.com/Fission-AI/OpenSpec">
+    <picture>
+      <source srcset="../../assets/openspec_bg.png">
+      <img src="../../assets/openspec_bg.png" alt="Логотип OpenSpec">
+    </picture>
+  </a>
+</p>
 
-Переведён весь имеющийся текст 83 документов: актуальные материалы, прежние руководства и документация участников проекта. Английские оригиналы сохранены по прежним путям.
+<p align="center">
+  <a href="https://github.com/Fission-AI/OpenSpec/actions/workflows/ci.yml"><img alt="Проверки CI" src="https://github.com/Fission-AI/OpenSpec/actions/workflows/ci.yml/badge.svg" /></a>
+  <a href="https://www.npmjs.com/package/@fission-ai/openspec"><img alt="Версия npm" src="https://img.shields.io/npm/v/@fission-ai/openspec?style=flat-square" /></a>
+  <a href="../../LICENSE"><img alt="Лицензия: MIT (английский)" src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" /></a>
+  <a href="https://discord.gg/YctCnvvshC"><img alt="Discord" src="https://img.shields.io/discord/1411657095639601154?style=flat-square&logo=discord&logoColor=white&label=Discord&suffix=%20online" /></a>
+</p>
 
-В 18 исходных страницах ещё нет полного текста. Их заголовки и заметки переведены, но сами руководства остаются незавершёнными. На страницах и в реестре это явно отмечено. По SDD такие ограничения оригиналов допускаются при приёмке перевода всего доступного текста.
+<details>
+<summary><strong>Самый любимый фреймворк для работы со спецификациями.</strong></summary>
 
-## Начните здесь
+[![Звёзды (английский)](https://img.shields.io/github/stars/Fission-AI/OpenSpec?style=flat-square&label=Stars)](https://github.com/Fission-AI/OpenSpec/stargazers)
+[![Загрузок в месяц (английский)](https://img.shields.io/npm/dm/@fission-ai/openspec?style=flat-square&label=Downloads/mo)](https://www.npmjs.com/package/@fission-ai/openspec)
+[![Участники (английский)](https://img.shields.io/github/contributors/Fission-AI/OpenSpec?style=flat-square&label=Contributors)](https://github.com/Fission-AI/OpenSpec/graphs/contributors)
 
-1. [Установите OpenSpec](docs-lab/start/installation.md).
-2. [Настройте проект](docs-lab/start/setup.md).
-3. [Выполните первое изменение](docs-lab/start/quickstart.md).
+</details>
+<p></p>
+Наша философия:
 
-Команды терминала, ключи конфигурации и реальные сообщения CLI сохраняют исходное написание. Пояснения и запросы к ИИ-помощнику переведены.
-
-## Сопровождение перевода
-
-- [Правила перевода](TRANSLATION_RULES.md).
-- [Обновления из исходного репозитория](UPSTREAM_SYNC.md).
-- [Русский глоссарий](GLOSSARY.md).
-- [Реестр источников и проверенных версий](translation-manifest.json).
-- [Результаты проверок](VALIDATION.md).
-
-Ручная проверка приёмки без записи файлов и доступа к сети:
-
-```bash
-node scripts/check-russian-docs.mjs --strict
+```text
+→ гибкость вместо жёстких рамок
+→ итерации вместо каскадного процесса
+→ простота вместо сложности
+→ работа с существующими проектами, а не только с новыми
+→ масштабирование от личных проектов до крупных компаний
 ```
 
-## Актуальная документация: начало
+<p align="center">
+  Следите за обновлениями <a href="https://x.com/0xTab">@0xTab в X (английский)</a> · Присоединяйтесь к <a href="https://discord.gg/YctCnvvshC">OpenSpec в Discord (английский)</a>, чтобы получить помощь и задать вопросы.
+</p>
 
-| Документ | Файл | Состояние оригинала |
-|---|---|---|
-| [Установка](docs-lab/start/installation.md) | `docs-lab/start/installation.md` | Текст переведён |
-| [Обзор](docs-lab/start/overview.md) | `docs-lab/start/overview.md` | Не завершён |
-| [Быстрый старт](docs-lab/start/quickstart.md) | `docs-lab/start/quickstart.md` | Текст переведён |
-| [Настройте проект](docs-lab/start/setup.md) | `docs-lab/start/setup.md` | Текст переведён |
+<!-- TODO: Добавить GIF с демонстрацией процесса /opsx:propose → /opsx:archive -->
 
-## Настройка OpenSpec
+<a id="see-it-in-action"></a>
+## Посмотрите, как это работает
 
-| Документ | Файл | Состояние оригинала |
-|---|---|---|
-| [Обзор](docs-lab/customize/overview.md) | `docs-lab/customize/overview.md` | Текст переведён |
-| [Профили](docs-lab/customize/profiles.md) | `docs-lab/customize/profiles.md` | Текст переведён |
-| [Конфигурация проекта](docs-lab/customize/project-config.md) | `docs-lab/customize/project-config.md` | Текст переведён |
-| [Схемы](docs-lab/customize/schemas.md) | `docs-lab/customize/schemas.md` | Текст переведён |
-| [Настройка навыков](docs-lab/customize/skills.md) | `docs-lab/customize/skills.md` | Не завершён |
+```text
+Вы: /opsx:explore
+ИИ: Что вы хотите исследовать?
+Вы: Хочу добавить тёмную тему, но пока не знаю, как лучше это сделать.
+ИИ: Посмотрю, как у вас устроены стили...
+    Подходящий вариант: переменные CSS и небольшой контекст темы
+    с определением системных настроек. Без новых зависимостей. Уточним объём работы?
+Вы: Да, приступим.
 
-## Руководства
+Вы: /opsx:propose add-dark-mode
+ИИ: Создан каталог openspec/changes/add-dark-mode/
+    ✓ proposal.md — зачем нужно изменение и что меняется
+    ✓ specs/       — требования и сценарии
+    ✓ design.md    — технический подход
+    ✓ tasks.md     — список задач реализации
+    Всё готово к реализации!
 
-| Документ | Файл | Состояние оригинала |
-|---|---|---|
-| [Выполните изменение](docs-lab/guides/apply.md) | `docs-lab/guides/apply.md` | Не завершён |
-| [Измените план](docs-lab/guides/change-course.md) | `docs-lab/guides/change-course.md` | Не завершён |
-| [Концепции](docs-lab/guides/concepts.md) | `docs-lab/guides/concepts.md` | Не завершён |
-| [Примеры](docs-lab/guides/examples.md) | `docs-lab/guides/examples.md` | Не завершён |
-| [Существующие кодовые базы](docs-lab/guides/existing-codebases.md) | `docs-lab/guides/existing-codebases.md` | Не завершён |
-| [Исследуйте идею](docs-lab/guides/explore.md) | `docs-lab/guides/explore.md` | Не завершён |
-| [Проверьте план](docs-lab/guides/review-the-plan.md) | `docs-lab/guides/review-the-plan.md` | Не завершён |
-| [Работа в команде](docs-lab/guides/teams.md) | `docs-lab/guides/teams.md` | Не завершён |
+Вы: /opsx:apply
+ИИ: Выполняю задачи...
+    ✓ 1.1 Добавить поставщик контекста темы
+    ✓ 1.2 Создать компонент переключателя
+    ✓ 2.1 Добавить переменные CSS
+    ✓ 2.2 Подключить localStorage
+    Все задачи выполнены!
 
-## Несколько репозиториев (beta)
+Вы: /opsx:archive
+ИИ: Изменение перемещено в openspec/changes/archive/2025-01-23-add-dark-mode/
+    Спецификации обновлены. Можно переходить к следующей возможности.
+```
 
-| Документ | Файл | Состояние оригинала |
-|---|---|---|
-| [Хранилища (beta)](docs-lab/multi-repo/stores.md) | `docs-lab/multi-repo/stores.md` | Текст переведён |
-| [Рабочие наборы (beta)](docs-lab/multi-repo/worksets.md) | `docs-lab/multi-repo/worksets.md` | Текст переведён |
+<details>
+<summary><strong>Как выглядят сами спецификации?</strong></summary>
 
-## Справочник CLI, навыков и инструментов
+Обычный Markdown с требованиями и конкретными сценариями. Специальный синтаксис изучать не нужно. Вот содержимое каталога `specs/`, созданного выше:
 
-| Документ | Файл | Состояние оригинала |
-|---|---|---|
-| [CLI](docs-lab/reference/cli.md) | `docs-lab/reference/cli.md` | Текст переведён |
-| [Глоссарий](docs-lab/reference/glossary.md) | `docs-lab/reference/glossary.md` | Текст переведён |
-| [Навыки](docs-lab/reference/skills.md) | `docs-lab/reference/skills.md` | Текст переведён |
-| [Поддерживаемые инструменты](docs-lab/reference/supported-tools.md) | `docs-lab/reference/supported-tools.md` | Текст переведён |
+```markdown
+## ADDED Requirements
 
-## Справочник конфигурации
+### Requirement: Выбор темы
+Приложение SHALL позволять пользователям переключаться между светлой и тёмной темами,
+по умолчанию следуя системным настройкам.
 
-| Документ | Файл | Состояние оригинала |
-|---|---|---|
-| [Метаданные изменения (.openspec.yaml)](docs-lab/reference/configuration/change-metadata.md) | `docs-lab/reference/configuration/change-metadata.md` | Текст переведён |
-| [Настройки CLI (config.json)](docs-lab/reference/configuration/config-json.md) | `docs-lab/reference/configuration/config-json.md` | Текст переведён |
-| [Конфигурация проекта (config.yaml)](docs-lab/reference/configuration/config-yaml.md) | `docs-lab/reference/configuration/config-yaml.md` | Текст переведён |
-| [Переменные окружения](docs-lab/reference/configuration/environment-variables.md) | `docs-lab/reference/configuration/environment-variables.md` | Не завершён |
-| [Обзор](docs-lab/reference/configuration/index.md) | `docs-lab/reference/configuration/index.md` | Текст переведён |
-| [Хранилища](docs-lab/reference/configuration/stores.md) | `docs-lab/reference/configuration/stores.md` | Не завершён |
+#### Scenario: Пользователь включает тёмную тему
+- **WHEN** пользователь нажимает переключатель темы
+- **THEN** приложение включает тёмную тему и сохраняет выбор
+```
 
-## Справочник схем
+ИИ пишет эти документы, а вы проверяете план до написания кода.
 
-| Документ | Файл | Состояние оригинала |
-|---|---|---|
-| [Обзор](docs-lab/reference/schemas/index.md) | `docs-lab/reference/schemas/index.md` | Текст переведён |
-| [schema.yaml](docs-lab/reference/schemas/schema-yaml.md) | `docs-lab/reference/schemas/schema-yaml.md` | Текст переведён |
-| [spec-driven](docs-lab/reference/schemas/spec-driven/index.md) | `docs-lab/reference/schemas/spec-driven/index.md` | Текст переведён |
+OpenSpec разрабатывается с помощью OpenSpec. В этом репозитории можно посмотреть действующие [спецификации (английский)](../../openspec/specs) и [изменения в работе (английский)](../../openspec/changes), чтобы увидеть реальные примеры большого масштаба.
 
-## Архитектура
+</details>
 
-| Документ | Файл | Состояние оригинала |
-|---|---|---|
-| [Архитектурные решения](docs-lab/reference/architecture/design-decisions.md) | `docs-lab/reference/architecture/design-decisions.md` | Не завершён |
-| [Обзор](docs-lab/reference/architecture/index.md) | `docs-lab/reference/architecture/index.md` | Не завершён |
-| [Выполнение рабочих процессов](docs-lab/reference/architecture/workflow-runs.md) | `docs-lab/reference/architecture/workflow-runs.md` | Не завершён |
+<details>
+<summary><strong>Панель OpenSpec</strong></summary>
 
-## Помощь
+<p align="center">
+  <img src="../../assets/openspec_dashboard.png" alt="Предварительный вид панели OpenSpec" width="90%">
+</p>
 
-| Документ | Файл | Состояние оригинала |
-|---|---|---|
-| [Часто задаваемые вопросы](docs-lab/help/faq.md) | `docs-lab/help/faq.md` | Не завершён |
-| [Переход с прежнего рабочего процесса](docs-lab/help/legacy/migration.md) | `docs-lab/help/legacy/migration.md` | Не завершён |
-| [Устранение неполадок](docs-lab/help/troubleshooting.md) | `docs-lab/help/troubleshooting.md` | Не завершён |
+Пояснение снимка: Summary означает «Сводка», Active Changes — «Активные изменения», Completed Changes — «Завершённые изменения», Specifications — «Спецификации». Показаны 10 спецификаций, 64 требования, 3 активных и 4 завершённых изменения; выполнено 30 из 41 задачи, то есть 73%. Идентификаторы изменений и спецификаций сохранены для сопоставления с CLI.
 
-## Прежние руководства
+</details>
 
-Этот набор помечен как прежний в оригинале. Он переведён полностью, но может описывать устаревшее поведение.
+<a id="why-teams-adopt-openspec"></a>
+## Почему команды выбирают OpenSpec
 
-| Документ | Файл | Состояние оригинала |
-|---|---|---|
-| [Документация OpenSpec](docs/README.md) | `docs/README.md` | Текст переведён |
-| [Агентский контракт OpenSpec](docs/agent-contract.md) | `docs/agent-contract.md` | Текст переведён |
-| [Справочник CLI](docs/cli.md) | `docs/cli.md` | Текст переведён |
-| [Команды](docs/commands.md) | `docs/commands.md` | Текст переведён |
-| [Презентация для сообщества](docs/community.md) | `docs/community.md` | Текст переведён |
-| [Концепции](docs/concepts.md) | `docs/concepts.md` | Текст переведён |
-| [Настройка](docs/customization.md) | `docs/customization.md` | Текст переведён |
-| [Редактирование и повторение изменений](docs/editing-changes.md) | `docs/editing-changes.md` | Текст переведён |
-| [Примеры и рецепты](docs/examples.md) | `docs/examples.md` | Текст переведён |
-| [Использование OpenSpec в существующем проекте](docs/existing-projects.md) | `docs/existing-projects.md` | Текст переведён |
-| [Сначала исследуйте задачу](docs/explore.md) | `docs/explore.md` | Текст переведён |
-| [Часто задаваемые вопросы](docs/faq.md) | `docs/faq.md` | Текст переведён |
-| [Начало работы](docs/getting-started.md) | `docs/getting-started.md` | Текст переведён |
-| [Глоссарий](docs/glossary.md) | `docs/glossary.md` | Текст переведён |
-| [Как работают команды](docs/how-commands-work.md) | `docs/how-commands-work.md` | Текст переведён |
-| [Установка](docs/installation.md) | `docs/installation.md` | Текст переведён |
-| [Переход на OPSX](docs/migration-guide.md) | `docs/migration-guide.md` | Текст переведён |
-| [Многоязычное руководство](docs/multi-language.md) | `docs/multi-language.md` | Текст переведён |
-| [Рабочий процесс OPSX](docs/opsx.md) | `docs/opsx.md` | Текст переведён |
-| [Обзор основных понятий](docs/overview.md) | `docs/overview.md` | Текст переведён |
-| [Проверка изменения](docs/reviewing-changes.md) | `docs/reviewing-changes.md` | Текст переведён |
-| [Хранилища: план в собственном репозитории](docs/stores-beta/user-guide.md) | `docs/stores-beta/user-guide.md` | Текст переведён |
-| [Поддерживаемые инструменты](docs/supported-tools.md) | `docs/supported-tools.md` | Текст переведён |
-| [OpenSpec в команде](docs/team-workflow.md) | `docs/team-workflow.md` | Текст переведён |
-| [Устранение неполадок](docs/troubleshooting.md) | `docs/troubleshooting.md` | Текст переведён |
-| [Рабочие процессы](docs/workflows.md) | `docs/workflows.md` | Текст переведён |
-| [Написание хороших спецификаций](docs/writing-specs.md) | `docs/writing-specs.md` | Текст переведён |
+При самостоятельной работе OpenSpec помогает вам и ИИ придерживаться согласованного плана в одном репозитории. В команде сложность меняется: одна возможность затрагивает API-сервер, веб-приложение и общую библиотеку; требования принадлежат одной команде, а используют их другие; планирование начинается ещё до появления кода.
 
-## Документы проекта
+Решение — **[хранилища](docs-lab/multi-repo/stores.md)**: планирование в отдельном репозитории. В нём та же знакомая структура `openspec/` со спецификациями и изменениями, а совместная работа идёт через обычный `git push`. Единый источник требований доступен всей команде и каждому ИИ-агенту во всех репозиториях.
 
-| Документ | Файл | Состояние оригинала |
-|---|---|---|
-| [@fission-ai/openspec](project/CHANGELOG.md) | `CHANGELOG.md` | Текст переведён |
-| [Участие в разработке](project/CONTRIBUTING.md) | `CONTRIBUTING.md` | Текст переведён |
-| [Сопровождающие](project/MAINTAINERS.md) | `MAINTAINERS.md` | Текст переведён |
-| [README.md](project/README.md) | `README.md` | Текст переведён |
-| [OpenSpec](project/README_OLD.md) | `README_OLD.md` | Текст переведён |
-| [Политика безопасности](project/SECURITY.md) | `SECURITY.md` | Текст переведён |
-| [openspec](project/install.md) | `install.md` | Текст переведён |
-| [План устранения параллельных дельт OpenSpec](project/openspec-parallel-merge-plan.md) | `openspec-parallel-merge-plan.md` | Текст переведён |
+- **Возможности в нескольких репозиториях** — одно изменение и один план, даже если код попадает в три репозитория.
+- **Общие требования** — платформенная команда ведёт спецификации, а продуктовые команды ссылаются на них без права изменения там, где их читает ИИ-агент. Не нужно поддерживать отдельную расходящуюся wiki.
+- **Планирование до кода** — зафиксируйте план в хранилище сейчас; репозитории с кодом можно создать позже.
 
-## Документация подсистем
+> Хранилища находятся в **beta**. Начните с [руководства по хранилищам](docs-lab/multi-repo/stores.md).
 
-| Документ | Файл | Состояние оригинала |
-|---|---|---|
-| [Наборы изменений](.changeset/README.md) | `.changeset/README.md` | Текст переведён |
-| [Настройка контейнера разработки](.devcontainer/README.md) | `.devcontainer/README.md` | Текст переведён |
-| [Рабочие процессы GitHub](.github/workflows/README.md) | `.github/workflows/README.md` | Текст переведён |
-| [Скрипты OpenSpec](scripts/README.md) | `scripts/README.md` | Текст переведён |
-| [Навыки OpenSpec для skills.sh](skills/README.md) | `skills/README.md` | Текст переведён |
-| [Сайт документации OpenSpec](website/README.md) | `website/README.md` | Текст переведён |
+<a id="quick-start"></a>
+## Быстрый старт
 
-## Служебные карты и заметки редакторов
+Установите OpenSpec. Программа состоит из одного файла и не требует Node.js. На Alpine Linux сначала выполните `apk add libstdc++ libgcc`.
 
-| Документ | Файл | Состояние оригинала |
-|---|---|---|
-| [docs-lab/Notes.md](docs-lab/Notes.md) | `docs-lab/Notes.md` | Текст переведён |
-| [docs-lab: параллельная перестройка документации OpenSpec](docs-lab/README.md) | `docs-lab/README.md` | Текст переведён |
-| [Карта сообщений: вопросы, на которые должны ответить документы, и где](docs-lab/message-map.md) | `docs-lab/message-map.md` | Текст переведён |
-| [Куда ведет каждая текущая страница](docs-lab/sources.md) | `docs-lab/sources.md` | Текст переведён |
+macOS и Linux:
 
-## SDD
+```bash
+curl -fsSL https://raw.githubusercontent.com/Fission-AI/OpenSpec/main/scripts/binary/install.sh | sh
+```
 
-- [Основная спецификация: требования и сценарии](../../openspec/specs/russian-documentation/spec.md).
-- [Предложение (архив)](../../openspec/changes/archive/2026-10-27-add-russian-documentation/proposal.md).
-- [Изменения требований (архив)](../../openspec/changes/archive/2026-10-27-add-russian-documentation/specs/russian-documentation/spec.md).
-- [Техническое решение (архив)](../../openspec/changes/archive/2026-10-27-add-russian-documentation/design.md).
-- [Завершённые задачи (архив)](../../openspec/changes/archive/2026-10-27-add-russian-documentation/tasks.md).
+Windows (PowerShell):
 
-## Английские оригиналы
+```powershell
+irm https://raw.githubusercontent.com/Fission-AI/OpenSpec/main/scripts/binary/install.ps1 | iex
+```
 
-- [Карта актуальной документации (английский)](../../docs-lab/README.md).
-- [Прежняя документация (английский)](../README.md).
-- [Основной README (английский)](../../README.md).
+Предпочитаете менеджер пакетов? Используйте `npm install -g @fission-ai/openspec@latest` (требуется Node.js 20.19.0 или новее) либо официальную [формулу Homebrew (английский)](https://formulae.brew.sh/formula/openspec) и команду `brew install openspec`.
 
-В начале каждого перевода есть ссылка на оригинал и его проверенную версию. Обновление перевода не требует перемещения английских файлов или переписывания истории Git.
+Затем перейдите в каталог проекта и выполните инициализацию:
+
+```bash
+cd your-project
+openspec init
+```
+
+> **Хотите поручить установку ИИ?** Передайте [запрос для установки](docs-lab/start/installation.md#install-with-your-ai-assistant) своему помощнику по разработке. Он установит CLI, выполнит `openspec init` и проверит результат.
+
+Теперь обратитесь к ИИ:
+
+- **Пока не знаете, что хотите создать?** Начните с `/opsx:explore`: помощник изучит код, сравнит варианты и поможет составить план до написания кода, без обязательства сразу переходить к реализации. ([Быстрый старт](docs-lab/start/quickstart.md))
+- **Уже знаете, что нужно?** Сразу переходите к `/opsx:propose <what-you-want-to-build>`.
+
+Оба процесса входят в профиль по умолчанию. Если нужен расширенный набор (`/opsx:new`, `/opsx:continue`, `/opsx:ff`, `/opsx:verify`, `/opsx:bulk-archive`, `/opsx:onboard`), выберите его через `openspec config profile` и примените командой `openspec update`.
+
+`/opsx:propose` — каноническое имя. В вашем инструменте оно может записываться как `/opsx-propose` (Cursor, GitHub Copilot), `@opsx-propose` (Amazon Q) или `$openspec-propose` (Codex). `openspec init` выводит форму для выбранных инструментов. См. [поддерживаемые инструменты](docs-lab/reference/supported-tools.md).
+
+> [!NOTE]
+> Не уверены, поддерживается ли ваш инструмент? [Посмотрите полный список](docs-lab/reference/supported-tools.md): уже поддерживается более 30 инструментов, и список растёт.
+>
+> Также поддерживаются npm, Homebrew, pnpm, yarn, bun и Nix. [Варианты установки](docs-lab/start/installation.md).
+
+<a id="docs"></a>
+## Документация
+
+Полная документация: **[документация OpenSpec](docs-lab/start/installation.md)**.
+
+→ **[Быстрый старт](docs-lab/start/quickstart.md)**: первое изменение от начала до конца<br>
+→ **[Настройка проекта](docs-lab/start/setup.md)**: что устанавливает `openspec init`<br>
+→ **[CLI](docs-lab/reference/cli.md)**: справочник терминальных команд<br>
+→ **[Поддерживаемые инструменты](docs-lab/reference/supported-tools.md)**: интеграции с инструментами и пути установки<br>
+→ **[Настройка](docs-lab/customize/overview.md)**: профили, конфигурация проекта и схемы<br>
+→ **[Хранилища](docs-lab/multi-repo/stores.md)**: планирование в отдельном общем репозитории команды (beta)<br>
+→ **[Презентация сообщества](docs/community.md)**: проекты и материалы, созданные с помощью OpenSpec и для него
+
+<a id="community-schemas"></a>
+## Схемы сообщества
+
+Сторонние наборы схем распространяются в отдельных репозиториях. Они предлагают готовые рабочие процессы для интеграции OpenSpec с другими инструментами, подобно [каталогу расширений сообщества github/spec-kit (английский)](https://github.com/github/spec-kit/tree/main/extensions).
+
+→ **[Откройте каталог](docs/customization.md#community-schemas)** в документации по настройке.
+
+
+<a id="why-openspec"></a>
+## Зачем нужен OpenSpec?
+
+ИИ-помощники для разработки многое умеют, но результат непредсказуем, когда требования остаются только в истории чата. OpenSpec добавляет небольшой слой спецификаций: вы согласовываете, что нужно создать, прежде чем будет написан код.
+
+- **Согласуйте перед реализацией** — человек и ИИ договариваются о требованиях до написания кода.
+- **Поддерживайте порядок** — у каждого изменения свой каталог с предложением, спецификациями, техническим решением и задачами.
+- **Работайте гибко** — любой артефакт можно обновить в любой момент, без жёстких переходов между фазами.
+- **Используйте свои инструменты** — OpenSpec работает более чем с 30 ИИ-помощниками через команды со слешем.
+
+<a id="how-we-compare"></a>
+### Сравнение с другими подходами
+
+**[Spec Kit](https://github.com/github/spec-kit) (GitHub, английский)** — подробный, но тяжеловесный подход: жёсткие переходы между фазами, много Markdown и настройка Python. OpenSpec легче и допускает свободные итерации.
+
+**[Kiro](https://kiro.dev) (AWS, английский)** — широкие возможности, но вы привязаны к их IDE и ограничены моделями Claude. OpenSpec работает с уже используемыми инструментами.
+
+**Без спецификаций** — разработка с ИИ означает расплывчатые запросы и непредсказуемые результаты. OpenSpec добавляет предсказуемость без лишних формальностей.
+
+<a id="updating-openspec"></a>
+## Обновление OpenSpec
+
+**Обновите CLI**
+
+При автономной установке выполните `openspec install`. Если устанавливали через npm:
+
+```bash
+npm install -g @fission-ai/openspec@latest
+```
+
+Если устанавливали OpenSpec через Homebrew:
+
+```bash
+brew upgrade openspec
+```
+
+**Обновите инструкции агента**
+
+Выполните в каждом проекте, чтобы заново создать инструкции для ИИ и включить актуальные команды со слешем:
+
+```bash
+openspec update
+```
+
+<a id="usage-notes"></a>
+## Рекомендации по использованию
+
+**Выбор модели**: OpenSpec лучше работает с моделями, способными к глубокому рассуждению. Для планирования и реализации рекомендуются Codex 5.5 и Opus 4.7.
+
+**Работа с контекстом**: OpenSpec полезен чистый контекст. Очищайте контекст перед началом реализации и поддерживайте его в порядке в течение сеанса.
+
+<a id="contributing"></a>
+## Участие в разработке
+
+Каждое изменение начинается с issue. Команда обсуждает его там. Если решено продолжать работу, сопровождающий реализует изменение или приглашает вас сделать это вместе.
+
+→ **[CONTRIBUTING.md](CONTRIBUTING.md)**: весь процесс от первого issue до слияния PR
+
+<a id="other"></a>
+## Прочее
+
+<details>
+<summary><strong>Телеметрия</strong></summary>
+
+OpenSpec собирает анонимную статистику использования.
+
+Собираются только имена команд и версия, чтобы понимать, как используется программа. Аргументы, пути, содержимое и персональные данные не собираются. В CI телеметрия автоматически отключается.
+
+**Отключение (достаточно одного способа):**
+- `openspec config set telemetry.enabled false` (глобальная настройка; отсутствие значения означает, что сбор включён)
+- `export OPENSPEC_TELEMETRY=0` или `export DO_NOT_TRACK=1` (переменные окружения имеют приоритет над конфигурацией)
+
+</details>
+
+<details>
+<summary><strong>Сопровождающие и советники</strong></summary>
+
+Список основных сопровождающих и советников, определяющих развитие проекта: [MAINTAINERS.md](MAINTAINERS.md).
+
+</details>
+
+
+
+<a id="license"></a>
+## Лицензия
+
+MIT
+
+[Правила русификации документации (SDD)](../../openspec/specs/russian-documentation/spec.md)

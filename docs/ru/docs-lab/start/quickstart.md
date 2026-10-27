@@ -67,10 +67,10 @@ Propose превращает идею в план для проверки. По�
 
 ```
 openspec/changes/add-rate-limiting/
-├── proposal.md    зачем нужно изменение и что меняется
-├── specs/         проверяемые требования, определяющие готовность
-├── design.md      технические решения (только при необходимости)
-└── tasks.md       список задач реализации
+├── proposal.md    why, and what changes
+├── specs/         what "done" means, as testable requirements
+├── design.md      technical decisions (only when the change needs one)
+└── tasks.md       the implementation checklist
 ```
 
 Кода пока нет. Propose останавливается на плане.
@@ -121,37 +121,37 @@ Apply превращает план в код. Начните новый сеа�
 ## Завершённое изменение
 > Реализация готова. Изменения спецификации ещё находятся в папке изменения; основные specs/ пока не описывают ограничение запросов.
   openspec/
-  ├── specs/                                   (спецификации ограничения пока нет)
+  ├── specs/                                   (no rate-limiting spec yet)
   └── changes/
       └── add-rate-limiting/
           ├── proposal.md
-          ├── tasks.md                         все задачи отмечены
+          ├── tasks.md                         every box checked
           └── specs/
               └── rate-limiting/
-                  └── spec.md                  добавляемые требования
+                  └── spec.md                  the delta: ADDED requirements
 
 ## Требования попадают в specs/
 > Каждое требование переносится в основные спецификации: новые добавляются, изменённые заменяют старую версию. Для новой возможности создаётся новый файл.
   openspec/
   ├── specs/
-+ │   └── ограничение скорости/
-+ │       └── spec.md                          добавляется «Requirement: Rate limiting»
++ │   └── rate-limiting/
++ │       └── spec.md                          gains "Requirement: Rate limiting"
   └── changes/
       └── add-rate-limiting/
           └── specs/
               └── rate-limiting/
-                  └── spec.md                  исходные изменения спецификации
+                  └── spec.md                  the delta, source of the merge
 
 ## Папка перемещается в архив
 > Всё изменение вместе с изменениями спецификации переносится в архив с датой в имени. Ничего не удаляется.
   openspec/
   ├── specs/
-  │   └── ограничение скорости/
+  │   └── rate-limiting/
   │       └── spec.md
   └── changes/
 -     └── ограничение скорости добавления/
-+     └── архив/
-+         └── 2026-08-08-добавить-ограничение скорости/
++     └── archive/
++         └── 2026-08-08-add-rate-limiting/
 +             ├── proposal.md
 +             ├── tasks.md
 +             └── specs/rate-limiting/spec.md
@@ -160,8 +160,8 @@ Apply превращает план в код. Начните новый сеа�
 > changes/ готов к следующему изменению. specs/ описывает текущее поведение; archive/ хранит историю его появления.
   openspec/
   ├── specs/
-  │   └── ограничение скорости/
-  │       └── spec.md                          спецификация реализованного поведения
+  │   └── rate-limiting/
+  │       └── spec.md                          the spec as built
   └── changes/
       └── archive/
           └── 2026-08-08-add-rate-limiting/

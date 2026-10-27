@@ -37,42 +37,42 @@
     },
     {
       "source": "CHANGELOG.md",
-      "translation": "docs/ru/project/CHANGELOG.md",
+      "translation": "docs/ru/CHANGELOG.md",
       "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
       "sourceBlob": "489cf950f76f4361f56dc6fbf04c36c5f2e08d05",
       "status": "reviewed"
     },
     {
       "source": "CONTRIBUTING.md",
-      "translation": "docs/ru/project/CONTRIBUTING.md",
+      "translation": "docs/ru/CONTRIBUTING.md",
       "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
       "sourceBlob": "a29ae230c28c5064eb1267bb6c1d5fcd084130cd",
       "status": "reviewed"
     },
     {
       "source": "MAINTAINERS.md",
-      "translation": "docs/ru/project/MAINTAINERS.md",
+      "translation": "docs/ru/MAINTAINERS.md",
       "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
       "sourceBlob": "8a520215e2ef9a7d03da8ab4628cba7f9ff2823a",
       "status": "reviewed"
     },
     {
       "source": "README.md",
-      "translation": "docs/ru/project/README.md",
+      "translation": "docs/ru/README.md",
       "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
       "sourceBlob": "ce794e0949ca4d8bef0f60e017a99d2136d1f62e",
       "status": "reviewed"
     },
     {
       "source": "README_OLD.md",
-      "translation": "docs/ru/project/README_OLD.md",
+      "translation": "docs/ru/README_OLD.md",
       "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
       "sourceBlob": "e0f7f39a82c9f99878b77687bcfd83c0c09af7d9",
       "status": "reviewed"
     },
     {
       "source": "SECURITY.md",
-      "translation": "docs/ru/project/SECURITY.md",
+      "translation": "docs/ru/SECURITY.md",
       "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
       "sourceBlob": "e0dc5e08da25bd70e8efc2941efa693604211ce3",
       "status": "reviewed"
@@ -562,14 +562,14 @@
     },
     {
       "source": "install.md",
-      "translation": "docs/ru/project/install.md",
+      "translation": "docs/ru/install.md",
       "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
       "sourceBlob": "51e73bacc46f922201bb39c0b980c3a55bda5d28",
       "status": "reviewed"
     },
     {
       "source": "openspec-parallel-merge-plan.md",
-      "translation": "docs/ru/project/openspec-parallel-merge-plan.md",
+      "translation": "docs/ru/openspec-parallel-merge-plan.md",
       "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
       "sourceBlob": "736ce506fd1db10e6487703f91bedb6e24695ede",
       "status": "reviewed"

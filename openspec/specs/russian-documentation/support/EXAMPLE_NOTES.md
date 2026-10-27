@@ -5,7 +5,7 @@
 <a id="example-001"></a>
 ## Пример 1: OpenSpec
 
-[Вернуться к странице](project/README_OLD.md).
+[Вернуться к странице](../../../../docs/ru/README_OLD.md).
 
 ```text
 ┌────────────────────┐
@@ -40,7 +40,7 @@
 <a id="example-002"></a>
 ## Пример 2: Профили
 
-[Вернуться к странице](docs-lab/customize/profiles.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/customize/profiles.md).
 
 ```text
 Текущие настройки профиля.
@@ -57,7 +57,7 @@
 <a id="example-003"></a>
 ## Пример 3: Схемы
 
-[Вернуться к странице](docs-lab/customize/schemas.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/customize/schemas.md).
 
 ```text
 $ openspec schema fork spec-driven
@@ -72,7 +72,7 @@ $ openspec schema fork spec-driven
 <a id="example-004"></a>
 ## Пример 4: Хранилища (beta)
 
-[Вернуться к странице](docs-lab/multi-repo/stores.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/multi-repo/stores.md).
 
 ```text
 Готово к хранению: team-plans
@@ -88,7 +88,7 @@ openspec new change <change-id> --store team-plans
 <a id="example-005"></a>
 ## Пример 5: Хранилища (beta)
 
-[Вернуться к странице](docs-lab/multi-repo/stores.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/multi-repo/stores.md).
 
 ```text
 Использование корня OpenSpec: team-plans (/Users/you/openspec/team-plans)
@@ -98,7 +98,7 @@ openspec new change <change-id> --store team-plans
 <a id="example-006"></a>
 ## Пример 6: Хранилища (beta)
 
-[Вернуться к странице](docs-lab/multi-repo/stores.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/multi-repo/stores.md).
 
 ```text
 Использование корня OpenSpec: team-plans (/Users/you/openspec/team-plans)
@@ -108,7 +108,7 @@ openspec new change <change-id> --store team-plans
 <a id="example-007"></a>
 ## Пример 7: Хранилища (beta)
 
-[Вернуться к странице](docs-lab/multi-repo/stores.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/multi-repo/stores.md).
 
 ```text
 Использование корня OpenSpec: team-plans (/Users/you/openspec/team-plans)
@@ -120,7 +120,7 @@ openspec new change <change-id> --store team-plans
 <a id="example-008"></a>
 ## Пример 8: Хранилища (beta)
 
-[Вернуться к странице](docs-lab/multi-repo/stores.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/multi-repo/stores.md).
 
 ```text
 Доктор
@@ -137,7 +137,7 @@ openspec new change <change-id> --store team-plans
 <a id="example-009"></a>
 ## Пример 9: Рабочие наборы (beta)
 
-[Вернуться к странице](docs-lab/multi-repo/worksets.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/multi-repo/worksets.md).
 
 ```text
 рабочий набор «Платформа» (2 элемента) сохранен на вашем компьютере.
@@ -147,7 +147,7 @@ openspec new change <change-id> --store team-plans
 <a id="example-010"></a>
 ## Пример 10: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 ▌ Создана структура OpenSpec.
@@ -168,7 +168,7 @@ openspec new change <change-id> --store team-plans
 <a id="example-011"></a>
 ## Пример 11: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 Ошибка: неверный ключ конфигурации «bogus.key». Неизвестный ключ top-level «поддельный».
@@ -179,7 +179,7 @@ openspec new change <change-id> --store team-plans
 <a id="example-012"></a>
 ## Пример 12: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 Ошибка: /home/you/.config/openspec/config.json не удалось проанализировать, поэтому он был оставлен без изменений.
@@ -189,7 +189,7 @@ openspec new change <change-id> --store team-plans
 <a id="example-013"></a>
 ## Пример 13: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 Ошибка: редактор не настроен.
@@ -200,7 +200,7 @@ openspec new change <change-id> --store team-plans
 <a id="example-014"></a>
 ## Пример 14: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 Панель управления OpenSpec
@@ -228,7 +228,7 @@ openspec new change <change-id> --store team-plans
 <a id="example-015"></a>
 ## Пример 15: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 Изменение «add-rate-limit» вызывает проблемы
@@ -242,7 +242,7 @@ openspec new change <change-id> --store team-plans
 <a id="example-016"></a>
 ## Пример 16: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 Статус задачи: ✓ Завершено.
@@ -259,7 +259,7 @@ API: обновление
 <a id="example-017"></a>
 ## Пример 17: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 Ошибки проверки в изменениях разностных спецификаций:
@@ -272,7 +272,7 @@ API: обновление
 <a id="example-018"></a>
 ## Пример 18: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 создано изменение «add-caching» в openspec/changes/add-caching/.
@@ -286,7 +286,7 @@ API: обновление
 <a id="example-019"></a>
 ## Пример 19: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 Изменение: add-rate-limit
@@ -305,7 +305,7 @@ API: обновление
 <a id="example-020"></a>
 ## Пример 20: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 <artifact id="proposal" change="add-rate-limit" schema="spec-driven">
@@ -327,7 +327,7 @@ API: обновление
 <a id="example-021"></a>
 ## Пример 21: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 ## Применить: add-rate-limit
@@ -356,7 +356,7 @@ API: обновление
 <a id="example-022"></a>
 ## Пример 22: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 Схема: spec-driven
@@ -375,7 +375,7 @@ API: обновление
 <a id="example-023"></a>
 ## Пример 23: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 ✔ Создание копии spec-driven на my-flow.
@@ -387,7 +387,7 @@ API: обновление
 <a id="example-024"></a>
 ## Пример 24: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 Готово к хранению: team-context
@@ -403,7 +403,7 @@ openspec new change <change-id> --store team-context
 <a id="example-025"></a>
 ## Пример 25: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 Ошибка: введите --yes для удаления файлов хранилища non-interactively.
@@ -413,7 +413,7 @@ openspec new change <change-id> --store team-context
 <a id="example-026"></a>
 ## Пример 26: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 Доктор хранилища
@@ -429,7 +429,7 @@ Git: обнаружен репозиторий (фиксации: да, неза
 <a id="example-027"></a>
 ## Пример 27: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 Доктор
@@ -445,7 +445,7 @@ Git: обнаружен репозиторий (фиксации: да, неза
 <a id="example-028"></a>
 ## Пример 28: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 Использование корня OpenSpec: team-context (/Users/you/stores/team-context)
@@ -463,7 +463,7 @@ Git: обнаружен репозиторий (фиксации: да, неза
 <a id="example-029"></a>
 ## Пример 29: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 Рабочий контекст для my-app (/Users/you/projects/my-app)
@@ -479,7 +479,7 @@ team-context /Users/you/stores/team-context
 <a id="example-030"></a>
 ## Пример 30: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 Использование корня OpenSpec: team-context (/Users/you/stores/team-context)
@@ -494,7 +494,7 @@ team-context /Users/you/stores/team-context
 <a id="example-031"></a>
 ## Пример 31: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 рабочий набор «Оформление заказа» (2 участника) сохранен на вашем компьютере.
@@ -504,7 +504,7 @@ team-context /Users/you/stores/team-context
 <a id="example-032"></a>
 ## Пример 32: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 оформить заказ
@@ -517,7 +517,7 @@ checkout-api /Users/you/projects/checkout-api
 <a id="example-033"></a>
 ## Пример 33: CLI
 
-[Вернуться к странице](docs-lab/reference/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/reference/cli.md).
 
 ```text
 Внимание: файл "openspec change ..." commands are deprecated. Prefer verb-first commands (e.g., "openspec list", "openspec validate --changes").
@@ -528,7 +528,7 @@ add-rate-limit
 <a id="example-034"></a>
 ## Пример 34: Настройте проект
 
-[Вернуться к странице](docs-lab/start/setup.md).
+[Вернуться к странице](../../../../docs/ru/docs-lab/start/setup.md).
 
 ```text
 Настройка OpenSpec завершена
@@ -541,7 +541,7 @@ add-rate-limit
 <a id="example-035"></a>
 ## Пример 35: Ссылка CLI
 
-[Вернуться к странице](docs/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs/cli.md).
 
 ```text
 Изменение: add-dark-mode
@@ -557,7 +557,7 @@ add-rate-limit
 <a id="example-036"></a>
 ## Пример 36: Ссылка CLI
 
-[Вернуться к странице](docs/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs/cli.md).
 
 ```text
 Схема: spec-driven
@@ -572,7 +572,7 @@ add-rate-limit
 <a id="example-037"></a>
 ## Пример 37: Ссылка CLI
 
-[Вернуться к странице](docs/cli.md).
+[Вернуться к странице](../../../../docs/ru/docs/cli.md).
 
 ```text
 Доступные схемы:
@@ -589,7 +589,7 @@ my-custom (проект)
 <a id="example-038"></a>
 ## Пример 38: Команды
 
-[Вернуться к странице](docs/commands.md).
+[Вернуться к странице](../../../../docs/ru/docs/commands.md).
 
 ```text
 Вы: /opsx:new add-dark-mode
@@ -604,7 +604,7 @@ AI: Создан openspec/changes/add-dark-mode/
 <a id="example-039"></a>
 ## Пример 39: Команды
 
-[Вернуться к странице](docs/commands.md).
+[Вернуться к странице](../../../../docs/ru/docs/commands.md).
 
 ```text
 Вы: /opsx:continue
@@ -630,7 +630,7 @@ AI: Изменение: add-dark-mode
 <a id="example-040"></a>
 ## Пример 40: Команды
 
-[Вернуться к странице](docs/commands.md).
+[Вернуться к странице](../../../../docs/ru/docs/commands.md).
 
 ```text
 Вы: /opsx:ff add-dark-mode
@@ -649,7 +649,7 @@ AI: быстрая перемотка вперед add-dark-mode...
 <a id="example-041"></a>
 ## Пример 41: Команды
 
-[Вернуться к странице](docs/commands.md).
+[Вернуться к странице](../../../../docs/ru/docs/commands.md).
 
 ```text
 Вы: /opsx:apply
@@ -676,7 +676,7 @@ AI: реализация add-dark-mode...
 <a id="example-042"></a>
 ## Пример 42: Команды
 
-[Вернуться к странице](docs/commands.md).
+[Вернуться к странице](../../../../docs/ru/docs/commands.md).
 
 ```text
 Вы: /opsx:verify
@@ -712,7 +712,7 @@ AI: проверка add-dark-mode...
 <a id="example-043"></a>
 ## Пример 43: Команды
 
-[Вернуться к странице](docs/commands.md).
+[Вернуться к странице](../../../../docs/ru/docs/commands.md).
 
 ```text
 Вы: /opsx:bulk-archive
@@ -743,7 +743,7 @@ AI: ✓ В архиве add-dark-mode
 <a id="example-044"></a>
 ## Пример 44: Команды
 
-[Вернуться к странице](docs/commands.md).
+[Вернуться к странице](../../../../docs/ru/docs/commands.md).
 
 ```text
 Вы: /opsx:onboard
@@ -769,7 +769,7 @@ AI: Добро пожаловать в OpenSpec!
 <a id="example-045"></a>
 ## Пример 45: Концепции
 
-[Вернуться к странице](docs/concepts.md).
+[Вернуться к странице](../../../../docs/ru/docs/concepts.md).
 
 ```text
 жидкость не жесткая — нет фазовых вентилей, работайте над тем, что имеет смысл
@@ -781,7 +781,7 @@ brownfield-first — работает с существующими базами
 <a id="example-046"></a>
 ## Пример 46: Концепции
 
-[Вернуться к странице](docs/concepts.md).
+[Вернуться к странице](../../../../docs/ru/docs/concepts.md).
 
 ```text
 # openspec/schemas/spec-driven/schema.yaml
@@ -807,7 +807,7 @@ brownfield-first — работает с существующими базами
 <a id="example-047"></a>
 ## Пример 47: Концепции
 
-[Вернуться к странице](docs/concepts.md).
+[Вернуться к странице](../../../../docs/ru/docs/concepts.md).
 
 ```text
 # openspec/schemas/research-first/schema.yaml
@@ -829,7 +829,7 @@ brownfield-first — работает с существующими базами
 <a id="example-048"></a>
 ## Пример 48: Начало работы
 
-[Вернуться к странице](docs/getting-started.md).
+[Вернуться к странице](../../../../docs/ru/docs/getting-started.md).
 
 ```text
 Вы: /opsx:apply
@@ -846,7 +846,7 @@ AI: Работа над задачами...
 <a id="example-049"></a>
 ## Пример 49: Начало работы
 
-[Вернуться к странице](docs/getting-started.md).
+[Вернуться к странице](../../../../docs/ru/docs/getting-started.md).
 
 ```text
 Вы: /opsx:archive
@@ -860,7 +860,7 @@ AI: Архивирование add-dark-mode...
 <a id="example-050"></a>
 ## Пример 50: переход на OPSX
 
-[Вернуться к странице](docs/migration-guide.md).
+[Вернуться к странице](../../../../docs/ru/docs/migration-guide.md).
 
 ```text
 Обновление до нового OpenSpec
@@ -896,7 +896,7 @@ OpenSpec теперь использует навыки агента — нов�
 <a id="example-051"></a>
 ## Пример 51: Рабочий процесс OPSX
 
-[Вернуться к странице](docs/opsx.md).
+[Вернуться к странице](../../../../docs/ru/docs/opsx.md).
 
 ```text
                         ┌─────────────────────────────────────┐
@@ -921,7 +921,7 @@ OpenSpec теперь использует навыки агента — нов�
 <a id="example-052"></a>
 ## Пример 52: Рабочий процесс OPSX
 
-[Вернуться к странице](docs/opsx.md).
+[Вернуться к странице](../../../../docs/ru/docs/opsx.md).
 
 ```text
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -945,7 +945,7 @@ OpenSpec теперь использует навыки агента — нов�
 <a id="example-053"></a>
 ## Пример 53: Рабочий процесс OPSX
 
-[Вернуться к странице](docs/opsx.md).
+[Вернуться к странице](../../../../docs/ru/docs/opsx.md).
 
 ```text
 Пользователь: «/openspec:proposal»
@@ -969,7 +969,7 @@ OpenSpec теперь использует навыки агента — нов�
 <a id="example-054"></a>
 ## Пример 54: Рабочий процесс OPSX
 
-[Вернуться к странице](docs/opsx.md).
+[Вернуться к странице](../../../../docs/ru/docs/opsx.md).
 
 ```text
 имя: research-first
@@ -990,7 +990,7 @@ OpenSpec теперь использует навыки агента — нов�
 <a id="example-055"></a>
 ## Пример 55: просмотр изменения
 
-[Вернуться к странице](docs/reviewing-changes.md).
+[Вернуться к странице](../../../../docs/ru/docs/reviewing-changes.md).
 
 ```text
 Вы: /opsx:verify
@@ -1006,7 +1006,7 @@ AI: проверка add-dark-mode...
 <a id="example-056"></a>
 ## Пример 56: Хранилища: план в собственном репозитории
 
-[Вернуться к странице](docs/stores-beta/user-guide.md).
+[Вернуться к странице](../../../../docs/ru/docs/stores-beta/user-guide.md).
 
 ```text
 Готово к хранению: team-plans
@@ -1022,7 +1022,7 @@ openspec new change <change-id> --store team-plans
 <a id="example-057"></a>
 ## Пример 57: Хранилища: план в собственном репозитории
 
-[Вернуться к странице](docs/stores-beta/user-guide.md).
+[Вернуться к странице](../../../../docs/ru/docs/stores-beta/user-guide.md).
 
 ```text
 platform-reqs (хранилище) api-server (репозиторий кода)
@@ -1042,7 +1042,7 @@ platform-reqs (хранилище) api-server (репозиторий кода)
 <a id="example-058"></a>
 ## Пример 58: Хранилища: план в собственном репозитории
 
-[Вернуться к странице](docs/stores-beta/user-guide.md).
+[Вернуться к странице](../../../../docs/ru/docs/stores-beta/user-guide.md).
 
 ```text
 Доктор
@@ -1060,7 +1060,7 @@ platform-reqs (хранилище) api-server (репозиторий кода)
 <a id="example-059"></a>
 ## Пример 59: Хранилища: план в собственном репозитории
 
-[Вернуться к странице](docs/stores-beta/user-guide.md).
+[Вернуться к странице](../../../../docs/ru/docs/stores-beta/user-guide.md).
 
 ```text
 Рабочий контекст для api-server (/Users/you/src/api-server)
@@ -1076,7 +1076,7 @@ platform-reqs /Users/you/openspec/platform-reqs
 <a id="example-060"></a>
 ## Пример 60: Хранилища: план в собственном репозитории
 
-[Вернуться к странице](docs/stores-beta/user-guide.md).
+[Вернуться к странице](../../../../docs/ru/docs/stores-beta/user-guide.md).
 
 ```text
 1. --store <id> вы так явно сказали → этот хранилище
@@ -1095,7 +1095,7 @@ platform-reqs /Users/you/openspec/platform-reqs
 <a id="example-061"></a>
 ## Пример 61: OpenSpec в команде
 
-[Вернуться к странице](docs/team-workflow.md).
+[Вернуться к странице](../../../../docs/ru/docs/team-workflow.md).
 
 ```text
 git switch -c add-dark-mode запускает ветку, как обычно

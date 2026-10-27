@@ -33,10 +33,10 @@
 
 ```
 openspec/changes/add-dark-mode/
-├── proposal.md      1. цель и объем ← если это неправильно, остановитесь здесь
-├── specs/…/spec.md  2. Требования ← суть обзора
-├── design.md        (только для больших изменений) — технический подход
-└── tasks.md         3. план работы
+├── proposal.md      1. the intent and scope   ← if this is wrong, stop here
+├── specs/…/spec.md  2. the requirements       ← the heart of the review
+├── design.md        (only for bigger changes) — the technical approach
+└── tasks.md         3. the plan of work
 ```
 
 Вам не нужно читать каждую строку. Вам нужно ответить на три вопроса, по одному на каждый файл.
@@ -130,7 +130,7 @@ AI:  Verifying add-dark-mode...
      ⚠ Scenario "Respects the OS preference on first load" has no test coverage
 ```
 
-[Русское пояснение подписей и сообщений](../EXAMPLE_NOTES.md#example-055).
+[Русское пояснение подписей и сообщений](../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-055).
 
 
 он помечает проблемы как КРИТИЧЕСКИЕ, ПРЕДУПРЕЖДЕНИЕ или ПРЕДЛОЖЕНИЕ и **не** блокирует архивирование — выявляет пробелы и оставляет вызов вам. В этом разница между «написал ли ИИ код» и «создал ли он то, что мы договорились».

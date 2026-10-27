@@ -67,7 +67,7 @@ Config changes:
 ? Apply changes to this project now? (Y/n) y
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-002).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-002).
 
 
 **Напрямую:** одна команда без вопросов:

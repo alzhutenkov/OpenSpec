@@ -38,10 +38,10 @@ OpenSpec обычно находится внутри одного репози�
 
 ```
             team-plans  (a store: planning in its own repo)
-            ├── .openspec-store/store.yaml     личность: «Я — командные планы»
+            ├── .openspec-store/store.yaml     identity: "I am team-plans"
             └── openspec/
-                ├── specs/      что правда
-                └── changes/    что в движении
+                ├── specs/      what is true
+                └── changes/    what is in motion
                       ▲
                       │ registered on each machine by name;
                       │ shared by pushing/cloning like any repo
@@ -79,7 +79,7 @@ Next: run normal OpenSpec commands against this store, for example:
 Share this store by committing and pushing it like any Git repo.
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-056).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-056).
 
 
 ```bash
@@ -93,7 +93,7 @@ Schema: spec-driven
 Next: openspec status --change add-login --store team-plans
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-007).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-007).
 
 
 Вот и вся модель. Отсюда жизненный цикл — это именно то,
@@ -299,7 +299,7 @@ openspec new change implement-checkout-promo-ui
    └──────────────────────────┘
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-057).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-057).
 
 
 **Команда продукта заявляет, на чем она
@@ -358,7 +358,7 @@ References
 
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-058).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-058).
 
 
 **"С чем я работаю?"** — `openspec context` собирает рабочий набор
@@ -375,7 +375,7 @@ Referenced stores
     Fetch: openspec show <spec-id> --type spec --store platform-reqs
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-059).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-059).
 
 
 Обе команды поддерживают `--json` для агентов. `openspec context --code-workspace <path>` дополнительно создаёт файл рабочего пространства VS Code со всем набором папок. Это единственная запись, которую выполняет эта команда.
@@ -438,7 +438,7 @@ platform  (opens in VS Code)
                                                           (classic behavior)
 ```
 
-[Русское пояснение подписей и сообщений](../../EXAMPLE_NOTES.md#example-060).
+[Русское пояснение подписей и сообщений](../../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-060).
 
 
 строка `Using OpenSpec root:` (и блок `root` в выходных данных

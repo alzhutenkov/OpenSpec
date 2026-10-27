@@ -143,7 +143,7 @@ Needs your attention
 ? Upgrade and clean up legacy files? (Y/n)
 ```
 
-[Русское пояснение подписей и сообщений](../EXAMPLE_NOTES.md#example-050).
+[Русское пояснение подписей и сообщений](../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-050).
 
 
 **Что происходит, когда вы говорите «да»:**
@@ -606,13 +606,13 @@ openspec schemas --json
 ```
 project/
 ├── openspec/
-│   ├── характеристики/ # Без изменений
-│   ├── изменения/ # Без изменений
-│   │ └── архив/ # Без изменений
-│   └── config.yaml # НОВИНКА: Конфигурация проекта
+│   ├── specs/                    # Без изменений
+│   ├── changes/                  # Без изменений
+│   │   └── archive/              # Без изменений
+│   └── config.yaml               # НОВИНКА: Конфигурация проекта
 ├── .claude/
-│   └── навыки/ # НОВИНКА: навыки OPSX
-│       ├── openspec-propose/ # основной профиль по умолчанию
+│   └── skills/                   # НОВИНКА: навыки OPSX
+│       ├── openspec-propose/     # основной профиль по умолчанию
 │       ├── openspec-explore/
 │       ├── openspec-apply-change/
 │       ├── openspec-update-change/

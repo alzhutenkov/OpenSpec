@@ -21,7 +21,7 @@ easy not complex        — lightweight setup, minimal ceremony
 brownfield-first        — works with existing codebases, not just greenfield
 ```
 
-[Русское пояснение подписей и сообщений](../EXAMPLE_NOTES.md#example-045).
+[Русское пояснение подписей и сообщений](../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-045).
 
 
 <a id="why-these-principles-matter"></a>
@@ -73,11 +73,11 @@ OpenSpec распределяет вашу работу по двум основ
 ```
 openspec/specs/
 ├── auth/
-│   └── spec.md # Поведение аутентификации
+│   └── spec.md           # Поведение аутентификации
 ├── payments/
-│   └── spec.md # Обработка платежей
+│   └── spec.md           # Обработка платежей
 ├── notifications/
-│   └── spec.md # Система уведомлений
+│   └── spec.md           # Система уведомлений
 └── ui/
     └── spec.md           # Поведение и темы пользовательского интерфейса.
 ```
@@ -470,7 +470,7 @@ artifacts:
     requires: [specs, design] # Needs both specs and design first
 ```
 
-[Русское пояснение подписей и сообщений](../EXAMPLE_NOTES.md#example-046).
+[Русское пояснение подписей и сообщений](../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-046).
 
 
 **Артефакты образуют граф зависимостей:**
@@ -541,7 +541,7 @@ artifacts:
     requires: [proposal]   # Skip specs/design, go straight to tasks
 ```
 
-[Русское пояснение подписей и сообщений](../EXAMPLE_NOTES.md#example-047).
+[Русское пояснение подписей и сообщений](../../../openspec/specs/russian-documentation/support/EXAMPLE_NOTES.md#example-047).
 
 
 Подробную информацию о создании и использовании пользовательских схем см. в разделе [Настройка](customization.md).
@@ -559,12 +559,12 @@ Before archive:
 
 openspec/
 ├── specs/
-│   └── авторизация/
+│   └── auth/
 │       └── spec.md ◄────────────────┐
 └── changes/                         │
     └── add-2fa/                     │
         ├── proposal.md              │
-        ├── design.md                │ объединить
+        ├── design.md                │ merge
         ├── tasks.md                 │
         └── specs/                   │
             └── auth/                │
@@ -575,8 +575,8 @@ After archive:
 
 openspec/
 ├── specs/
-│   └── авторизация/
-│       └── spec.md # Теперь включает требования 2FA.
+│   └── auth/
+│       └── spec.md        # Теперь включает требования 2FA.
 └── changes/
     └── archive/
         └── 2025-01-24-add-2fa/    # Сохранено для истории

@@ -24,9 +24,9 @@
 ## Порядок составления
 
 ```text
-             ┌─ спецификации ──┐
-предложение ────┤ ├── задачи ── применить
-             └─ дизайн ─┘
+             ┌─ specs ──┐
+proposal ────┤          ├── tasks ── apply
+             └─ design ─┘
 ```
 
 Предложение стоит на первом месте. Спецификации и дизайн следуют в любом порядке, а задачи требуют обоих. Реализация ([apply](#apply)) начинается после установки `tasks.md`.
@@ -43,11 +43,11 @@
 
 ```text
 openspec/changes/add-user-auth/
-├── .openspec.yaml      метаданные изменения, записываемые при создании изменения.
+├── .openspec.yaml      change metadata, written when the change is created
 ├── proposal.md
 ├── specs/
-│   └── аутентификация пользователя/
-│       └── spec.md одна дельта-спецификация на каждую возможность
+│   └── user-auth/
+│       └── spec.md     one delta spec per capability
 ├── design.md
 └── tasks.md
 ```
