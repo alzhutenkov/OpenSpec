@@ -1,0 +1,683 @@
+{
+  "version": 1,
+  "upstream": "https://github.com/Fission-AI/OpenSpec",
+  "exclusions": {
+    "AGENTS.md": "Машинные инструкции",
+    ".agents/": "Инструкции навыков",
+    ".codex/": "Конфигурация агента",
+    "skills/openspec-*/": "Устанавливаемые инструкции навыков",
+    "schemas/": "Машинные шаблоны",
+    ".github/PULL_REQUEST_TEMPLATE.md": "Рабочий шаблон PR",
+    "openspec/": "Спецификации и история изменений",
+    "src/": "Исходный код",
+    "test/": "Тестовые фикстуры",
+    "website/content/": "Сгенерированные страницы",
+    "docs/ru/": "Переводы не являются источниками"
+  },
+  "entries": [
+    {
+      "source": ".changeset/README.md",
+      "translation": "docs/ru/.changeset/README.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "dffd5644e3ceecac012ef2fb129c1320f955906c",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": ".devcontainer/README.md",
+      "translation": "docs/ru/.devcontainer/README.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "1d7201e31ad59a269a99aee4305aef99a2ccb7c0",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": ".github/workflows/README.md",
+      "translation": "docs/ru/.github/workflows/README.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "9befe1c4aa92aaa47eef1e0a973768a4cc76e6c7",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "CHANGELOG.md",
+      "translation": "docs/ru/project/CHANGELOG.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "489cf950f76f4361f56dc6fbf04c36c5f2e08d05",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "CONTRIBUTING.md",
+      "translation": "docs/ru/project/CONTRIBUTING.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "a29ae230c28c5064eb1267bb6c1d5fcd084130cd",
+      "status": "reviewed",
+      "translationMethod": "manual"
+    },
+    {
+      "source": "MAINTAINERS.md",
+      "translation": "docs/ru/project/MAINTAINERS.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "8a520215e2ef9a7d03da8ab4628cba7f9ff2823a",
+      "status": "reviewed",
+      "translationMethod": "manual"
+    },
+    {
+      "source": "README.md",
+      "translation": "docs/ru/project/README.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "ce794e0949ca4d8bef0f60e017a99d2136d1f62e",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "README_OLD.md",
+      "translation": "docs/ru/project/README_OLD.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "e0f7f39a82c9f99878b77687bcfd83c0c09af7d9",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "SECURITY.md",
+      "translation": "docs/ru/project/SECURITY.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "e0dc5e08da25bd70e8efc2941efa693604211ce3",
+      "status": "reviewed",
+      "translationMethod": "manual"
+    },
+    {
+      "source": "docs-lab/Notes.md",
+      "translation": "docs/ru/docs-lab/Notes.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "f4217fbf522ab0745fe007540c4d5ca129696f3d",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/README.md",
+      "translation": "docs/ru/docs-lab/README.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "86190e96aecc34d59dbe95b49cadf0f2a10ade57",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/customize/overview.md",
+      "translation": "docs/ru/docs-lab/customize/overview.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "203000ac136154c60c0a23e6b160106c1e7239cb",
+      "status": "reviewed",
+      "translationMethod": "manual"
+    },
+    {
+      "source": "docs-lab/customize/profiles.md",
+      "translation": "docs/ru/docs-lab/customize/profiles.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "45406bbe7805f128bd5f7bdbc5c08f5e653a0349",
+      "status": "reviewed",
+      "translationMethod": "manual"
+    },
+    {
+      "source": "docs-lab/customize/project-config.md",
+      "translation": "docs/ru/docs-lab/customize/project-config.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "2226ac035e92aff4cbcd33b5e62e418436fc3272",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/customize/schemas.md",
+      "translation": "docs/ru/docs-lab/customize/schemas.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "9bf70f706c12f4459fa11e7733fd37c0c5d64501",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/customize/skills.md",
+      "translation": "docs/ru/docs-lab/customize/skills.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "6a54510c970fdcb3a309be50ffb097ea8a26b424",
+      "status": "source-incomplete",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/guides/apply.md",
+      "translation": "docs/ru/docs-lab/guides/apply.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "dacb1027d183df7a238c1bfcc49bec7ada37e162",
+      "status": "source-incomplete",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/guides/change-course.md",
+      "translation": "docs/ru/docs-lab/guides/change-course.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "f12a8d87333be67e05988b744f7edbf1692daf65",
+      "status": "source-incomplete",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/guides/concepts.md",
+      "translation": "docs/ru/docs-lab/guides/concepts.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "f203e5da31506326921b37ca2c397e58cdb5498c",
+      "status": "source-incomplete",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/guides/examples.md",
+      "translation": "docs/ru/docs-lab/guides/examples.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "6e5745eb45d5465ecb85e149f52170e115f5c846",
+      "status": "source-incomplete",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/guides/existing-codebases.md",
+      "translation": "docs/ru/docs-lab/guides/existing-codebases.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "e589c553867c519e1fc33b10f8902b704932aa17",
+      "status": "source-incomplete",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/guides/explore.md",
+      "translation": "docs/ru/docs-lab/guides/explore.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "230d2c0b8d4fda2ca3e0eb080c9acb0f85e55a72",
+      "status": "source-incomplete",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/guides/review-the-plan.md",
+      "translation": "docs/ru/docs-lab/guides/review-the-plan.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "4623d9b55524493696b535e6c52de533a67e5267",
+      "status": "source-incomplete",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/guides/teams.md",
+      "translation": "docs/ru/docs-lab/guides/teams.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "1285ddfea36a4a3c586581e23082ecd0ce02c1b4",
+      "status": "source-incomplete",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/help/faq.md",
+      "translation": "docs/ru/docs-lab/help/faq.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "064e018c601ab383e1ac48960ea96b388d784a63",
+      "status": "source-incomplete",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/help/legacy/migration.md",
+      "translation": "docs/ru/docs-lab/help/legacy/migration.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "bd5fd99bb9f59233a7b69fa6223321d66aa2db59",
+      "status": "source-incomplete",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/help/troubleshooting.md",
+      "translation": "docs/ru/docs-lab/help/troubleshooting.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "d4962852f7fe993d081cea3b0c7cda5f0d0190ee",
+      "status": "source-incomplete",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/message-map.md",
+      "translation": "docs/ru/docs-lab/message-map.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "b7fb74f6ddd1e9fdbd915832a0f5049c81671861",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/multi-repo/stores.md",
+      "translation": "docs/ru/docs-lab/multi-repo/stores.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "0b596b91f9299f52f122b1253ff198052e2781aa",
+      "status": "reviewed",
+      "translationMethod": "manual"
+    },
+    {
+      "source": "docs-lab/multi-repo/worksets.md",
+      "translation": "docs/ru/docs-lab/multi-repo/worksets.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "c0886f106ba41b1023ef5ec9000280553612c1e9",
+      "status": "reviewed",
+      "translationMethod": "manual"
+    },
+    {
+      "source": "docs-lab/reference/architecture/design-decisions.md",
+      "translation": "docs/ru/docs-lab/reference/architecture/design-decisions.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "78bf92551eb95c20e6c7da0007e3ef1a1a6ed6ab",
+      "status": "source-incomplete",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/reference/architecture/index.md",
+      "translation": "docs/ru/docs-lab/reference/architecture/index.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "e16604713922d06601e1e0864acc0e767cef118e",
+      "status": "source-incomplete",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/reference/architecture/workflow-runs.md",
+      "translation": "docs/ru/docs-lab/reference/architecture/workflow-runs.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "6b29921cdbec3cbf2e6b1824c88b919e79074a6c",
+      "status": "source-incomplete",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/reference/cli.md",
+      "translation": "docs/ru/docs-lab/reference/cli.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "982acf456de4b558d127a8871f8aad682a13b508",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/reference/configuration/change-metadata.md",
+      "translation": "docs/ru/docs-lab/reference/configuration/change-metadata.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "d81025cae4da530014adc33e9dcac3103533c03f",
+      "status": "reviewed",
+      "translationMethod": "manual"
+    },
+    {
+      "source": "docs-lab/reference/configuration/config-json.md",
+      "translation": "docs/ru/docs-lab/reference/configuration/config-json.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "44284080918659daa68cfcec16bdf6eb1925144f",
+      "status": "reviewed",
+      "translationMethod": "manual"
+    },
+    {
+      "source": "docs-lab/reference/configuration/config-yaml.md",
+      "translation": "docs/ru/docs-lab/reference/configuration/config-yaml.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "9f6886c92c9a0b71c9dda1f5764ba6464efe4920",
+      "status": "reviewed",
+      "translationMethod": "manual"
+    },
+    {
+      "source": "docs-lab/reference/configuration/environment-variables.md",
+      "translation": "docs/ru/docs-lab/reference/configuration/environment-variables.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "dc1c608ef8778987566f6cc627c28d74359b288f",
+      "status": "source-incomplete",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/reference/configuration/index.md",
+      "translation": "docs/ru/docs-lab/reference/configuration/index.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "e196b9b87a4daf5734b267a5a04752365a3c6855",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/reference/configuration/stores.md",
+      "translation": "docs/ru/docs-lab/reference/configuration/stores.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "1d843f51f5e3c94a95c94efb33d27d4f909d694d",
+      "status": "source-incomplete",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/reference/glossary.md",
+      "translation": "docs/ru/docs-lab/reference/glossary.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "a4c1c74be4859f7f5368cb37fc551df374bc098c",
+      "status": "reviewed",
+      "translationMethod": "manual"
+    },
+    {
+      "source": "docs-lab/reference/schemas/index.md",
+      "translation": "docs/ru/docs-lab/reference/schemas/index.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "7e93fd2bfee11ff7290fae3afe5e6dffedf3eed9",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/reference/schemas/schema-yaml.md",
+      "translation": "docs/ru/docs-lab/reference/schemas/schema-yaml.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "6dc14fe266c068f9c42640304a1ec8bcac62e232",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/reference/schemas/spec-driven/index.md",
+      "translation": "docs/ru/docs-lab/reference/schemas/spec-driven/index.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "5e9c1ea31630f9ca221eb68979569727de544b27",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/reference/skills.md",
+      "translation": "docs/ru/docs-lab/reference/skills.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "29088deaa9752f4704b7a9e238d63ecd82797831",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/reference/supported-tools.md",
+      "translation": "docs/ru/docs-lab/reference/supported-tools.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "50595efba523b0af8bb0267b913f1959902d3a0c",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/sources.md",
+      "translation": "docs/ru/docs-lab/sources.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "f915a8ac86f4f8ee7308a47dc1c76f39a1529a6d",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/start/installation.md",
+      "translation": "docs/ru/docs-lab/start/installation.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "1e228cf82148de2ba638c775af8aed174401dbd4",
+      "status": "reviewed",
+      "translationMethod": "manual"
+    },
+    {
+      "source": "docs-lab/start/overview.md",
+      "translation": "docs/ru/docs-lab/start/overview.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "9456031c1f772926454ba4d32077d50942a6ed83",
+      "status": "source-incomplete",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs-lab/start/quickstart.md",
+      "translation": "docs/ru/docs-lab/start/quickstart.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "90c4e28989c007460f663b5d5b6e7f739e1ef743",
+      "status": "reviewed",
+      "translationMethod": "manual"
+    },
+    {
+      "source": "docs-lab/start/setup.md",
+      "translation": "docs/ru/docs-lab/start/setup.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "668e03790d79941ae1f333902330befd6d21978e",
+      "status": "reviewed",
+      "translationMethod": "manual"
+    },
+    {
+      "source": "docs/README.md",
+      "translation": "docs/ru/docs/README.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "8c5df9d12ee7c1161651c2f723668c6f917dcd1d",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/agent-contract.md",
+      "translation": "docs/ru/docs/agent-contract.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "4d46dc3a0693619a45e1fa3ac9cc111b8a261cdc",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/cli.md",
+      "translation": "docs/ru/docs/cli.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "b1ff6ddebc2c88873a7feaf224f3459442e37c5d",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/commands.md",
+      "translation": "docs/ru/docs/commands.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "ac64cb20e3795ed17c6f45a69b096ec0a8c3ce49",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/community.md",
+      "translation": "docs/ru/docs/community.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "ed0800e1a6a7e7d680c8fbfc39fb4144f9b04d59",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/concepts.md",
+      "translation": "docs/ru/docs/concepts.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "97619e885b28f36af099ee23f8e8015a0c49908c",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/customization.md",
+      "translation": "docs/ru/docs/customization.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "03cca80a66ce1a3ebc137d9723676ff338fd455e",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/editing-changes.md",
+      "translation": "docs/ru/docs/editing-changes.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "e2fc830bdf81a0f4bc1cbf7bf5b7232a5db8245c",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/examples.md",
+      "translation": "docs/ru/docs/examples.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "f49dabbd9409bf8dd1aaebacece8fec5c2464fa2",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/existing-projects.md",
+      "translation": "docs/ru/docs/existing-projects.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "8e879d440792b3ef1a5e90076600490c56710929",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/explore.md",
+      "translation": "docs/ru/docs/explore.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "ef69c4c2201e50b2668d562ff8b129c1c56759ea",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/faq.md",
+      "translation": "docs/ru/docs/faq.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "82718dfcb3660d1f6442901f7c9d5f080ea0af82",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/getting-started.md",
+      "translation": "docs/ru/docs/getting-started.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "2112a65e4c102f8d99ec9ce78ac72f93d0ac5d42",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/glossary.md",
+      "translation": "docs/ru/docs/glossary.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "0c459fa06e6ab8c373103816f9b425197fc83246",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/how-commands-work.md",
+      "translation": "docs/ru/docs/how-commands-work.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "17d92e7ee9464d99a2fb6e18540be482b10c2230",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/installation.md",
+      "translation": "docs/ru/docs/installation.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "759d29414e4e29c08333cb89937a02e00257e9f6",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/migration-guide.md",
+      "translation": "docs/ru/docs/migration-guide.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "020f1b8c014af77c9e114d0b8fcc224a7c94542f",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/multi-language.md",
+      "translation": "docs/ru/docs/multi-language.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "f1f1258de10b48ef04e6a81f3e616ec6bbceefd8",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/opsx.md",
+      "translation": "docs/ru/docs/opsx.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "a046eb8a214c55d5b88ebae34ef735f5348270a4",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/overview.md",
+      "translation": "docs/ru/docs/overview.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "6cda79036b4d1da99cb85fcb1277900c363562b4",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/reviewing-changes.md",
+      "translation": "docs/ru/docs/reviewing-changes.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "c99f6bca3702c6189c14ebbef87ebb9906647a4e",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/stores-beta/user-guide.md",
+      "translation": "docs/ru/docs/stores-beta/user-guide.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "e34a8af16a151d31d7ce4f8899cd41a8d8855a43",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/supported-tools.md",
+      "translation": "docs/ru/docs/supported-tools.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "f101819f88b879db9af0706c814b642fd6c5c3cd",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/team-workflow.md",
+      "translation": "docs/ru/docs/team-workflow.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "76c83817b8be9662274c61e5545edee609c7720b",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/troubleshooting.md",
+      "translation": "docs/ru/docs/troubleshooting.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "f35ada883a1bd7049cdad44e48f0da832142ac32",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/workflows.md",
+      "translation": "docs/ru/docs/workflows.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "cbdc5d230b754b58b5f2cc5ba9f01389c18dbfda",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "docs/writing-specs.md",
+      "translation": "docs/ru/docs/writing-specs.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "1e9883a7c52cb38e0d062d5507802599aa70332d",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "install.md",
+      "translation": "docs/ru/project/install.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "51e73bacc46f922201bb39c0b980c3a55bda5d28",
+      "status": "reviewed",
+      "translationMethod": "manual"
+    },
+    {
+      "source": "openspec-parallel-merge-plan.md",
+      "translation": "docs/ru/project/openspec-parallel-merge-plan.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "736ce506fd1db10e6487703f91bedb6e24695ede",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "scripts/README.md",
+      "translation": "docs/ru/scripts/README.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "2d1d82842ffa389d78b0f37472941b695543f39e",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "skills/README.md",
+      "translation": "docs/ru/skills/README.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "44c01c60f1b365fcf013bfbc0bf4ce88f28408f2",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    },
+    {
+      "source": "website/README.md",
+      "translation": "docs/ru/website/README.md",
+      "sourceCommit": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "sourceBlob": "52150249fd319a4a034cbbb6d615a30a855b1582",
+      "status": "reviewed",
+      "translationMethod": "machine-assisted-with-review"
+    }
+  ]
+}

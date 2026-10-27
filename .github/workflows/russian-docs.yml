@@ -1,0 +1,41 @@
+name: Russian documentation
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  translation-consistency:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
+        with:
+          node-version: '20.19.0'
+      - name: Test translation audit, CRLF and merge recovery
+        run: node --test scripts/check-russian-docs.test.mjs
+      - name: Audit translated files
+        run: |
+          node --input-type=module <<'JS'
+          import { checkRussianDocs } from './scripts/check-russian-docs.mjs';
+          const report = checkRussianDocs(process.cwd());
+          console.log(JSON.stringify(report, null, 2));
+          // Unwritten upstream pages remain explicitly reported. All translation
+          // defects fail CI; --strict additionally rejects incomplete originals.
+          if (report.findings.some(item => item.type !== 'source-incomplete')) process.exitCode = 1;
+          JS
